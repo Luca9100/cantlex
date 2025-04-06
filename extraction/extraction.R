@@ -36,7 +36,8 @@ for (i in 1:nrow(list_of_cantons)) {
       total = nrow(dol), clear = FALSE, width= 60)
     
     for (i in 1:nrow(dol)) {
-      url <- paste0(base_url, "/api/", language, "/texts_of_law/", dol$law[i])
+      url <- paste0(base_url, "/api/", language, "/texts_of_law/", dol$law[i]) %>% 
+        str_replace_all(pattern = " ", replacement = "%20")
       response <- GET(url)
       data <- fromJSON(content(response, "text"))
       
