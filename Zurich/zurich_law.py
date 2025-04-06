@@ -1,6 +1,7 @@
 import json
 import html
 import urllib.request
+import re
 
 def clean_text(text):
     """Fix encoding issues and decode HTML entities safely."""
@@ -11,6 +12,10 @@ def clean_text(text):
         return text.encode('latin1').decode('utf-8')
     except (UnicodeEncodeError, UnicodeDecodeError):
         return text.strip()
+
+def remove_parentheses_content(text):
+    """Remove any content inside parentheses, including the parentheses."""
+    return re.sub(r"\s*\([^)]*\)", "", text).strip()
 
 def get_latest_active_version(versions):
     """Get the latest active version or fallback to the most recent one."""
@@ -38,6 +43,8 @@ def extract_abbreviation_url_map_from_web(url, output_json_path=None):
             continue
 
         title = clean_text(entry.get("erlasstitel", ""))
+        title = remove_parentheses_content(title)
+
         abkuerzung = clean_text(entry.get("abkuerzung", ""))
 
         if abkuerzung:
