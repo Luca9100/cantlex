@@ -65,7 +65,10 @@ rds_files <- list.files(path = "dataframe_of_laws",
 # Read and combine all .rds files into a single dataframe using tidyverse functions
 combined_df <- rds_files %>%
   map_df(readRDS) %>% 
-  mut
+  mutate(url = str_replace(url, "chde/", "ch/app/de/"),
+         url = str_replace(url, "chfr/", "ch/app/fr/"),
+         url = str_replace(url, "chit/", "ch/app/it/"),
+         url = str_replace(url, "chrm/", "ch/app/rm/"))
 
 openxlsx::write.xlsx(combined_df, 
                      file = "combined_df.xlsx")
