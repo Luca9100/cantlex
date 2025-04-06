@@ -57,12 +57,8 @@
     
     <script>
         let abbreviationMap = {}; // Will hold the abbreviation map
-
+    
         // Load abbreviation map from JSON file
-        // NOTE: The fetch() API may not work properly when opening the HTML file 
-        // directly from the file system (i.e., with a file:// URL). 
-        // This is because the browser restricts access to local files for 
-        // security reasons when using file:// URLs. 
         function loadAbbreviationMap() {
             fetch('abbreviations.json') // Path to your JSON file
                 .then(response => response.json())
@@ -78,73 +74,92 @@
                     console.error('Error loading abbreviation map:', error);
                 });
         }
-
+    
+        // Function to extract article-like patterns from the input (e.g., 6, 7, 8a, 23b)
+        function extractArticles(input) {
+            const regex = /\b\d+[a-z]?\b/gi;
+            const matches = input.match(regex);
+            return matches || [];
+        }
+    
         // Handle the search bar resolution
         function resolveAbbreviation() {
-            const abbreviation = document.getElementById('abbreviation').value.trim().toLowerCase();
-            if (abbreviation in abbreviationMap) {
-                window.location.href = abbreviationMap[abbreviation];
+            const rawInput = document.getElementById('abbreviation').value.trim().toLowerCase();
+    
+            // Extract potential articles
+            const articles = extractArticles(rawInput);
+            const article = articles.length > 0 ? articles[0] : null;
+    
+            // Remove article part from input to get base abbreviation
+            const abbreviationOnly = rawInput.replace(/\b\d+[a-z]?\b/gi, '').trim();
+    
+            console.log("Abbreviation only:", abbreviationOnly);
+            console.log("Article extracted:", article);
+    
+            if (abbreviationOnly in abbreviationMap) {
+                let baseUrl = abbreviationMap[abbreviationOnly];
+                if (article) {
+                    baseUrl += `/art/${article.toLowerCase()}`;
+                }
+                window.location.href = baseUrl;
             } else {
                 alert('Kein Bündner Erlass mit dieser Referenz gefunden');
             }
         }
-
+    
         // Detect "Enter" key press
         function checkEnter(event) {
             if (event.key === 'Enter') {
                 resolveAbbreviation();
             }
         }
-
+    
         // Handle direct URL resolution via path
         function handleDirectResolution() {
-            const path = window.location.pathname.slice(1).toLowerCase(); // Get the path without "/"
+            const path = window.location.pathname.slice(1).toLowerCase();
             if (path in abbreviationMap) {
                 window.location.href = abbreviationMap[path];
             }
         }
-        
+    
         // Array of placeholder texts
         const placeholders = [
-          "Abkürzung oder Kurztitel eingeben",
-          "Dar en abbreviaziun cun 'rm'",
-          "Inserire abbreviazione con 'it'",
-          "DVG",
-          "dvg",
-          "Kantonale Weinverordnung",
-          "weinverordnung",
-          "Nationalparkordnung",
-          "nationalparkordnung",
-          "StipVO",
-          "stipvo",
-          "VOzGesG",
-          "rvzegzzpo",
-          "VöV",
-          "vöv",
-          "NAV Alp",
-          "nav alp",
-          "rm LARP",
-          "rm lcc",
-          "rm lescha da transparenza",
-          "rm LLing",
-          "it CNL alpe",
-          "it LCC",
-          "it legge sulle pubblicazioni ufficiali",
-          "it Ordinanza scolastica"
+            "Abkürzung oder Kurztitel eingeben",
+            "Dar en abbreviaziun cun 'rm'",
+            "Inserire abbreviazione con 'it'",
+            "DVG",
+            "dvg",
+            "Kantonale Weinverordnung",
+            "weinverordnung",
+            "Nationalparkordnung",
+            "nationalparkordnung",
+            "StipVO",
+            "stipvo",
+            "VOzGesG",
+            "rvzegzzpo",
+            "VöV",
+            "vöv",
+            "NAV Alp",
+            "nav alp",
+            "rm LARP",
+            "rm lcc",
+            "rm lescha da transparenza",
+            "rm LLing",
+            "it CNL alpe",
+            "it LCC",
+            "it legge sulle pubblicazioni ufficiali",
+            "it Ordinanza scolastica"
         ];
-        
-        // Function to set a random placeholder
+    
         function setPlaceholder() {
             const randomIndex = Math.floor(Math.random() * placeholders.length);
             const input = document.getElementById('abbreviation');
             input.placeholder = placeholders[randomIndex];
         }
-
-        // Cycle every 4 seconds
+    
         setInterval(setPlaceholder, 4000);
-
-        // Load the abbreviation map as soon as the page loads
+    
         window.onload = loadAbbreviationMap;
-    </script>
+    </script>        
 </body>
 </html>
