@@ -1,0 +1,3906 @@
+[
+  {
+    "abbreviation_lower": "kv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/110.100"
+  },
+  {
+    "abbreviation_lower": "kantonale wappenschutzverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/110.300"
+  },
+  {
+    "abbreviation_lower": "kwschv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/110.300"
+  },
+  {
+    "abbreviation_lower": "wappenschutzverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/110.300"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun chantunala davart la protecziun da las vopnas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/110.300"
+  },
+  {
+    "abbreviation_lower": "rm ocpv",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/110.300"
+  },
+  {
+    "abbreviation_lower": "it ordinanza cantonale sulla protezione degli stemmi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/110.300"
+  },
+  {
+    "abbreviation_lower": "it ocpst",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/110.300"
+  },
+  {
+    "abbreviation_lower": "kbüg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/130.100"
+  },
+  {
+    "abbreviation_lower": "rm ldbchant",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/130.100"
+  },
+  {
+    "abbreviation_lower": "it lccit",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/130.100"
+  },
+  {
+    "abbreviation_lower": "kbüv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/130.110"
+  },
+  {
+    "abbreviation_lower": "rm odbchant",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/130.110"
+  },
+  {
+    "abbreviation_lower": "it occit",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/130.110"
+  },
+  {
+    "abbreviation_lower": "gpr",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/150.100"
+  },
+  {
+    "abbreviation_lower": "rm ldpc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/150.100"
+  },
+  {
+    "abbreviation_lower": "it ldpc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/150.100"
+  },
+  {
+    "abbreviation_lower": "vpr",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/150.200"
+  },
+  {
+    "abbreviation_lower": "rm odpc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/150.200"
+  },
+  {
+    "abbreviation_lower": "it odpc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/150.200"
+  },
+  {
+    "abbreviation_lower": "grossratswahlgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/150.400"
+  },
+  {
+    "abbreviation_lower": "grwg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/150.400"
+  },
+  {
+    "abbreviation_lower": "rm lecg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/150.400"
+  },
+  {
+    "abbreviation_lower": "it legc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/150.400"
+  },
+  {
+    "abbreviation_lower": "grossratswahlverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/150.410"
+  },
+  {
+    "abbreviation_lower": "grwv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/150.410"
+  },
+  {
+    "abbreviation_lower": "rm oecg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/150.410"
+  },
+  {
+    "abbreviation_lower": "it oegc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/150.410"
+  },
+  {
+    "abbreviation_lower": "shg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.050"
+  },
+  {
+    "abbreviation_lower": "rm lrs",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.050"
+  },
+  {
+    "abbreviation_lower": "it lrs",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.050"
+  },
+  {
+    "abbreviation_lower": "grossratsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.100"
+  },
+  {
+    "abbreviation_lower": "grg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.100"
+  },
+  {
+    "abbreviation_lower": "rm lcg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.100"
+  },
+  {
+    "abbreviation_lower": "it lgc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.100"
+  },
+  {
+    "abbreviation_lower": "ggo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.140"
+  },
+  {
+    "abbreviation_lower": "rm ugcg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.140"
+  },
+  {
+    "abbreviation_lower": "it rogc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.140"
+  },
+  {
+    "abbreviation_lower": "rvog",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.300"
+  },
+  {
+    "abbreviation_lower": "rm lora",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.300"
+  },
+  {
+    "abbreviation_lower": "it lcoga",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.300"
+  },
+  {
+    "abbreviation_lower": "rvov",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.310"
+  },
+  {
+    "abbreviation_lower": "rm oora",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.310"
+  },
+  {
+    "abbreviation_lower": "it ooga",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.310"
+  },
+  {
+    "abbreviation_lower": "ggvr",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.380"
+  },
+  {
+    "abbreviation_lower": "rm lspr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.380"
+  },
+  {
+    "abbreviation_lower": "it lspc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.380"
+  },
+  {
+    "abbreviation_lower": "personalgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.400"
+  },
+  {
+    "abbreviation_lower": "pg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.400"
+  },
+  {
+    "abbreviation_lower": "rm lescha dal persunal",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.400"
+  },
+  {
+    "abbreviation_lower": "rm lp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.400"
+  },
+  {
+    "abbreviation_lower": "it legge sul personale",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.400"
+  },
+  {
+    "abbreviation_lower": "it lcpers",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.400"
+  },
+  {
+    "abbreviation_lower": "pv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.410"
+  },
+  {
+    "abbreviation_lower": "personalverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.410"
+  },
+  {
+    "abbreviation_lower": "rm op",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.410"
+  },
+  {
+    "abbreviation_lower": "it ocpers",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.410"
+  },
+  {
+    "abbreviation_lower": "azv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.415"
+  },
+  {
+    "abbreviation_lower": "arbeitszeitverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.415"
+  },
+  {
+    "abbreviation_lower": "rm otl",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.415"
+  },
+  {
+    "abbreviation_lower": "it ool",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.415"
+  },
+  {
+    "abbreviation_lower": "vp-reglement",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.430"
+  },
+  {
+    "abbreviation_lower": "rm reglament pa",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.430"
+  },
+  {
+    "abbreviation_lower": "it regolamento pa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.430"
+  },
+  {
+    "abbreviation_lower": "pkg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.450"
+  },
+  {
+    "abbreviation_lower": "rm lcpg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.450"
+  },
+  {
+    "abbreviation_lower": "it lcpg",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.450"
+  },
+  {
+    "abbreviation_lower": "infv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.500"
+  },
+  {
+    "abbreviation_lower": "rm oinf",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.500"
+  },
+  {
+    "abbreviation_lower": "it oinf",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.500"
+  },
+  {
+    "abbreviation_lower": "pmv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.800"
+  },
+  {
+    "abbreviation_lower": "rm ompp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/170.800"
+  },
+  {
+    "abbreviation_lower": "it ogp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/170.800"
+  },
+  {
+    "abbreviation_lower": "öffentlichkeitsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha da transparenza",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/171.000"
+  },
+  {
+    "abbreviation_lower": "it legge sulla trasparenza",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/171.000"
+  },
+  {
+    "abbreviation_lower": "kdsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.100"
+  },
+  {
+    "abbreviation_lower": "datenschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.100"
+  },
+  {
+    "abbreviation_lower": "kantonales datenschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.100"
+  },
+  {
+    "abbreviation_lower": "rm lcpd",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/171.100"
+  },
+  {
+    "abbreviation_lower": "it lcpd",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/171.100"
+  },
+  {
+    "abbreviation_lower": "bildüberwachungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.120"
+  },
+  {
+    "abbreviation_lower": "vbü",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.120"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart la surveglianza visuala",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/171.120"
+  },
+  {
+    "abbreviation_lower": "rm osvis",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/171.120"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulla sorveglianza con acquisizione di immagini",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/171.120"
+  },
+  {
+    "abbreviation_lower": "it osimm",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/171.120"
+  },
+  {
+    "abbreviation_lower": "einwohnerregistergesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.200"
+  },
+  {
+    "abbreviation_lower": "erg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.200"
+  },
+  {
+    "abbreviation_lower": "rm lescha da registers",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/171.200"
+  },
+  {
+    "abbreviation_lower": "rm lrab",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/171.200"
+  },
+  {
+    "abbreviation_lower": "it legge sui registri degli abitanti",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/171.200"
+  },
+  {
+    "abbreviation_lower": "it lrab",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/171.200"
+  },
+  {
+    "abbreviation_lower": "einwohnerregisterverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.210"
+  },
+  {
+    "abbreviation_lower": "erv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/171.210"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart ils registers d'abitantas e d'abitants",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/171.210"
+  },
+  {
+    "abbreviation_lower": "rm orab",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/171.210"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sui registri degli abitanti",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/171.210"
+  },
+  {
+    "abbreviation_lower": "it orab",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/171.210"
+  },
+  {
+    "abbreviation_lower": "gog",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.000"
+  },
+  {
+    "abbreviation_lower": "gerichtsorganisationsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.000"
+  },
+  {
+    "abbreviation_lower": "rm log",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.000"
+  },
+  {
+    "abbreviation_lower": "it log",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.000"
+  },
+  {
+    "abbreviation_lower": "ogv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.010"
+  },
+  {
+    "abbreviation_lower": "rm oog",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.010"
+  },
+  {
+    "abbreviation_lower": "it oogta",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.010"
+  },
+  {
+    "abbreviation_lower": "rostr",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.180"
+  },
+  {
+    "abbreviation_lower": "rm rostr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.180"
+  },
+  {
+    "abbreviation_lower": "it rouctreg",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.180"
+  },
+  {
+    "abbreviation_lower": "schlichtungsbehördenverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.190"
+  },
+  {
+    "abbreviation_lower": "sbv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.190"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart las autoritads da mediaziun",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.190"
+  },
+  {
+    "abbreviation_lower": "rm oam",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.190"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulle autorità di conciliazione",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.190"
+  },
+  {
+    "abbreviation_lower": "it oaconc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.190"
+  },
+  {
+    "abbreviation_lower": "jav",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.200"
+  },
+  {
+    "abbreviation_lower": "rm osurvg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.200"
+  },
+  {
+    "abbreviation_lower": "it ovg",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.200"
+  },
+  {
+    "abbreviation_lower": "frjv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.210"
+  },
+  {
+    "abbreviation_lower": "rm ofcg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.210"
+  },
+  {
+    "abbreviation_lower": "it ofcg",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.210"
+  },
+  {
+    "abbreviation_lower": "eswv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.400"
+  },
+  {
+    "abbreviation_lower": "rm ovee",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.400"
+  },
+  {
+    "abbreviation_lower": "it ovne",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.400"
+  },
+  {
+    "abbreviation_lower": "besoldungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.510"
+  },
+  {
+    "abbreviation_lower": "bsv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.510"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart la salarisaziun",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.510"
+  },
+  {
+    "abbreviation_lower": "rm ods",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.510"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulla retribuzione",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.510"
+  },
+  {
+    "abbreviation_lower": "it ore",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.510"
+  },
+  {
+    "abbreviation_lower": "viö",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/173.520"
+  },
+  {
+    "abbreviation_lower": "rm oip",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/173.520"
+  },
+  {
+    "abbreviation_lower": "it oip",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/173.520"
+  },
+  {
+    "abbreviation_lower": "gg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/175.050"
+  },
+  {
+    "abbreviation_lower": "rm lv",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/175.050"
+  },
+  {
+    "abbreviation_lower": "it lcom",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/175.050"
+  },
+  {
+    "abbreviation_lower": "fiav",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/175.100"
+  },
+  {
+    "abbreviation_lower": "rm osfi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/175.100"
+  },
+  {
+    "abbreviation_lower": "it ovfc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/175.100"
+  },
+  {
+    "abbreviation_lower": "dvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/177.100"
+  },
+  {
+    "abbreviation_lower": "rm lad",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/177.100"
+  },
+  {
+    "abbreviation_lower": "it ladig",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/177.100"
+  },
+  {
+    "abbreviation_lower": "vdvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/177.110"
+  },
+  {
+    "abbreviation_lower": "rm olad",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/177.110"
+  },
+  {
+    "abbreviation_lower": "it oladig",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/177.110"
+  },
+  {
+    "abbreviation_lower": "publikationsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/180.100"
+  },
+  {
+    "abbreviation_lower": "pug",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/180.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha da publicaziun",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/180.100"
+  },
+  {
+    "abbreviation_lower": "rm lpubl",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/180.100"
+  },
+  {
+    "abbreviation_lower": "it legge sulle pubblicazioni ufficiali",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/180.100"
+  },
+  {
+    "abbreviation_lower": "it lcpubl",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/180.100"
+  },
+  {
+    "abbreviation_lower": "egzzgb",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/210.100"
+  },
+  {
+    "abbreviation_lower": "rm litccs",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/210.100"
+  },
+  {
+    "abbreviation_lower": "it licc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/210.100"
+  },
+  {
+    "abbreviation_lower": "egzor",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/210.200"
+  },
+  {
+    "abbreviation_lower": "rm litdo",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/210.200"
+  },
+  {
+    "abbreviation_lower": "it lico",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/210.200"
+  },
+  {
+    "abbreviation_lower": "notg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/210.300"
+  },
+  {
+    "abbreviation_lower": "notariatsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/210.300"
+  },
+  {
+    "abbreviation_lower": "rm lnot",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/210.300"
+  },
+  {
+    "abbreviation_lower": "it lnot",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/210.300"
+  },
+  {
+    "abbreviation_lower": "notv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/210.350"
+  },
+  {
+    "abbreviation_lower": "notariatsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/210.350"
+  },
+  {
+    "abbreviation_lower": "rm onot",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/210.350"
+  },
+  {
+    "abbreviation_lower": "it onot",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/210.350"
+  },
+  {
+    "abbreviation_lower": "notgebv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/210.370"
+  },
+  {
+    "abbreviation_lower": "rm otnot",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/210.370"
+  },
+  {
+    "abbreviation_lower": "it otnot",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/210.370"
+  },
+  {
+    "abbreviation_lower": "kzstv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/213.500"
+  },
+  {
+    "abbreviation_lower": "rm oscc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/213.500"
+  },
+  {
+    "abbreviation_lower": "it oscc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/213.500"
+  },
+  {
+    "abbreviation_lower": "kesv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/215.010"
+  },
+  {
+    "abbreviation_lower": "rm opuc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/215.010"
+  },
+  {
+    "abbreviation_lower": "it opmina",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/215.010"
+  },
+  {
+    "abbreviation_lower": "kadov",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/215.020"
+  },
+  {
+    "abbreviation_lower": "adoptionsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/215.020"
+  },
+  {
+    "abbreviation_lower": "kantonale adoptionsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/215.020"
+  },
+  {
+    "abbreviation_lower": "rm ocado",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/215.020"
+  },
+  {
+    "abbreviation_lower": "it ocadoz",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/215.020"
+  },
+  {
+    "abbreviation_lower": "kgbv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.100"
+  },
+  {
+    "abbreviation_lower": "rm ocrf",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/217.100"
+  },
+  {
+    "abbreviation_lower": "it ocrf",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/217.100"
+  },
+  {
+    "abbreviation_lower": "kgeoig",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.300"
+  },
+  {
+    "abbreviation_lower": "geoinformationsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.300"
+  },
+  {
+    "abbreviation_lower": "kantonales geoinformationsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.300"
+  },
+  {
+    "abbreviation_lower": "rm lcgeo",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/217.300"
+  },
+  {
+    "abbreviation_lower": "it lcgi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/217.300"
+  },
+  {
+    "abbreviation_lower": "kgeoiv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.310"
+  },
+  {
+    "abbreviation_lower": "geoinformationsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.310"
+  },
+  {
+    "abbreviation_lower": "kantonale geoinformationsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.310"
+  },
+  {
+    "abbreviation_lower": "rm ocgeo",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/217.310"
+  },
+  {
+    "abbreviation_lower": "it ocgi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/217.310"
+  },
+  {
+    "abbreviation_lower": "kvav",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.320"
+  },
+  {
+    "abbreviation_lower": "rm ocmu",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/217.320"
+  },
+  {
+    "abbreviation_lower": "it omuc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/217.320"
+  },
+  {
+    "abbreviation_lower": "gkgeoig",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.330"
+  },
+  {
+    "abbreviation_lower": "rm otlcgeo",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/217.330"
+  },
+  {
+    "abbreviation_lower": "it oelcgi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/217.330"
+  },
+  {
+    "abbreviation_lower": "kvlk",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/217.340"
+  },
+  {
+    "abbreviation_lower": "rm ocatc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/217.340"
+  },
+  {
+    "abbreviation_lower": "it occon",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/217.340"
+  },
+  {
+    "abbreviation_lower": "pflegekindergesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/219.050"
+  },
+  {
+    "abbreviation_lower": "beitritt zur ostschweizer bvg- und stiftungsaufsicht",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/219.150"
+  },
+  {
+    "abbreviation_lower": "rm participaziun a la surveglianza da la lpp e da las fundaziuns da la svizra orientala",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/219.150"
+  },
+  {
+    "abbreviation_lower": "it adesione alla vigilanza sulle fondazioni e lpp della svizzera orientale",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/219.150"
+  },
+  {
+    "abbreviation_lower": "egzschkg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/220.000"
+  },
+  {
+    "abbreviation_lower": "rm litlsc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/220.000"
+  },
+  {
+    "abbreviation_lower": "it ladlef",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/220.000"
+  },
+  {
+    "abbreviation_lower": "rvzegzschkg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/220.010"
+  },
+  {
+    "abbreviation_lower": "rm ortlitlsc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/220.010"
+  },
+  {
+    "abbreviation_lower": "it oladlef",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/220.010"
+  },
+  {
+    "abbreviation_lower": "anwg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/310.100"
+  },
+  {
+    "abbreviation_lower": "anwaltsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/310.100"
+  },
+  {
+    "abbreviation_lower": "rm ladv",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/310.100"
+  },
+  {
+    "abbreviation_lower": "it lavv",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/310.100"
+  },
+  {
+    "abbreviation_lower": "anwv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/310.200"
+  },
+  {
+    "abbreviation_lower": "anwaltsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/310.200"
+  },
+  {
+    "abbreviation_lower": "rm oadv",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/310.200"
+  },
+  {
+    "abbreviation_lower": "it oavv",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/310.200"
+  },
+  {
+    "abbreviation_lower": "anwaltsprüfungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/310.210"
+  },
+  {
+    "abbreviation_lower": "anwpv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/310.210"
+  },
+  {
+    "abbreviation_lower": "rm oexadv",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/310.210"
+  },
+  {
+    "abbreviation_lower": "it oeavv",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/310.210"
+  },
+  {
+    "abbreviation_lower": "honorarverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/310.250"
+  },
+  {
+    "abbreviation_lower": "hv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/310.250"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun d'onurari",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/310.250"
+  },
+  {
+    "abbreviation_lower": "rm oco",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/310.250"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sull'onorario degli avvocati",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/310.250"
+  },
+  {
+    "abbreviation_lower": "it ooa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/310.250"
+  },
+  {
+    "abbreviation_lower": "egzzpo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/320.100"
+  },
+  {
+    "abbreviation_lower": "rm litcpc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/320.100"
+  },
+  {
+    "abbreviation_lower": "it lacpc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/320.100"
+  },
+  {
+    "abbreviation_lower": "rvzegzzpo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/320.110"
+  },
+  {
+    "abbreviation_lower": "rm ortlitcpc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/320.110"
+  },
+  {
+    "abbreviation_lower": "it olacpc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/320.110"
+  },
+  {
+    "abbreviation_lower": "vgz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/320.210"
+  },
+  {
+    "abbreviation_lower": "rm otdpc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/320.210"
+  },
+  {
+    "abbreviation_lower": "it otgpc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/320.210"
+  },
+  {
+    "abbreviation_lower": "egzstpo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.100"
+  },
+  {
+    "abbreviation_lower": "rm litcpp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.100"
+  },
+  {
+    "abbreviation_lower": "it lacpp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.100"
+  },
+  {
+    "abbreviation_lower": "rvzegzstpo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.110"
+  },
+  {
+    "abbreviation_lower": "rm ortlitcpp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.110"
+  },
+  {
+    "abbreviation_lower": "it olacpp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.110"
+  },
+  {
+    "abbreviation_lower": "vgs",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.210"
+  },
+  {
+    "abbreviation_lower": "rm otdpp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.210"
+  },
+  {
+    "abbreviation_lower": "it otgpp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.210"
+  },
+  {
+    "abbreviation_lower": "gvv zum sprengstoffgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.320"
+  },
+  {
+    "abbreviation_lower": "rm oecg tar la lescha federala davart las materias explosivas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.320"
+  },
+  {
+    "abbreviation_lower": "it oe del gran consiglio della legge sugli esplosivi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.320"
+  },
+  {
+    "abbreviation_lower": "rab zum sprengstoffgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.325"
+  },
+  {
+    "abbreviation_lower": "rm der tar la lescha davart las materias explosivas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.325"
+  },
+  {
+    "abbreviation_lower": "it disp. della legge sugli esplosivi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.325"
+  },
+  {
+    "abbreviation_lower": "rabzwg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.345"
+  },
+  {
+    "abbreviation_lower": "rm dertlarm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.345"
+  },
+  {
+    "abbreviation_lower": "it da della larm",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.345"
+  },
+  {
+    "abbreviation_lower": "justizvollzugsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.500"
+  },
+  {
+    "abbreviation_lower": "jvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.500"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart l'execuziun giudiziala",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.500"
+  },
+  {
+    "abbreviation_lower": "rm lexeg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.500"
+  },
+  {
+    "abbreviation_lower": "it leg",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.500"
+  },
+  {
+    "abbreviation_lower": "justizvollzugsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.510"
+  },
+  {
+    "abbreviation_lower": "jvv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.510"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart l'execuziun giudiziala",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.510"
+  },
+  {
+    "abbreviation_lower": "rm oexeg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.510"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sull'esecuzione giudiziaria",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.510"
+  },
+  {
+    "abbreviation_lower": "it oeg",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.510"
+  },
+  {
+    "abbreviation_lower": "vev",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/350.520"
+  },
+  {
+    "abbreviation_lower": "rm oiexe",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/350.520"
+  },
+  {
+    "abbreviation_lower": "it oie",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/350.520"
+  },
+  {
+    "abbreviation_lower": "vrg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/370.100"
+  },
+  {
+    "abbreviation_lower": "rm lga",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/370.100"
+  },
+  {
+    "abbreviation_lower": "it lga",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/370.100"
+  },
+  {
+    "abbreviation_lower": "vgö",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/370.110"
+  },
+  {
+    "abbreviation_lower": "rm otdps",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/370.110"
+  },
+  {
+    "abbreviation_lower": "it otdp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/370.110"
+  },
+  {
+    "abbreviation_lower": "vkv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/370.120"
+  },
+  {
+    "abbreviation_lower": "rm ocpra",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/370.120"
+  },
+  {
+    "abbreviation_lower": "it ospa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/370.120"
+  },
+  {
+    "abbreviation_lower": "verv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/370.130"
+  },
+  {
+    "abbreviation_lower": "rm ocge",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/370.130"
+  },
+  {
+    "abbreviation_lower": "it oage",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/370.130"
+  },
+  {
+    "abbreviation_lower": "egzssv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/370.300"
+  },
+  {
+    "abbreviation_lower": "rm litpmc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/370.300"
+  },
+  {
+    "abbreviation_lower": "it lapca",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/370.300"
+  },
+  {
+    "abbreviation_lower": "vesv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/370.310"
+  },
+  {
+    "abbreviation_lower": "rm osad",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/370.310"
+  },
+  {
+    "abbreviation_lower": "it oracta",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/370.310"
+  },
+  {
+    "abbreviation_lower": "schulgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/421.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha da scola",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/421.000"
+  },
+  {
+    "abbreviation_lower": "it legge scolastica",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/421.000"
+  },
+  {
+    "abbreviation_lower": "schulverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/421.010"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun da scola",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/421.010"
+  },
+  {
+    "abbreviation_lower": "it ordinanza scolastica",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/421.010"
+  },
+  {
+    "abbreviation_lower": "tagesstrukturverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/421.030"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart structuras dal di",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/421.030"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulle strutture diurne",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/421.030"
+  },
+  {
+    "abbreviation_lower": "avot",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/421.040"
+  },
+  {
+    "abbreviation_lower": "rm oact",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/421.040"
+  },
+  {
+    "abbreviation_lower": "it oact",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/421.040"
+  },
+  {
+    "abbreviation_lower": "mittelschulgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.000"
+  },
+  {
+    "abbreviation_lower": "msg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart las scolas medias",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.000"
+  },
+  {
+    "abbreviation_lower": "rm lsm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.000"
+  },
+  {
+    "abbreviation_lower": "it legge sulle scuole medie superiori",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.000"
+  },
+  {
+    "abbreviation_lower": "it lsms",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.000"
+  },
+  {
+    "abbreviation_lower": "gymv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.050"
+  },
+  {
+    "abbreviation_lower": "rm ogim",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.050"
+  },
+  {
+    "abbreviation_lower": "it olic",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.050"
+  },
+  {
+    "abbreviation_lower": "aufnahmev",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.060"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun d'admissiun a las scolas medias",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.060"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sull'ammissione",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.060"
+  },
+  {
+    "abbreviation_lower": "msbgv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.080"
+  },
+  {
+    "abbreviation_lower": "rm octsm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.080"
+  },
+  {
+    "abbreviation_lower": "it ocesms",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.080"
+  },
+  {
+    "abbreviation_lower": "mittelschulorganisationsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.100"
+  },
+  {
+    "abbreviation_lower": "msov",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.100"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart l'organisaziun da las scolas medias",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.100"
+  },
+  {
+    "abbreviation_lower": "rm oosm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.100"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sull'organizzazione delle scuole medie superiori",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.100"
+  },
+  {
+    "abbreviation_lower": "it oosms",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.100"
+  },
+  {
+    "abbreviation_lower": "schulordnung bks",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.110"
+  },
+  {
+    "abbreviation_lower": "rm urden da scola scg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.110"
+  },
+  {
+    "abbreviation_lower": "it regolamento scg",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.110"
+  },
+  {
+    "abbreviation_lower": "hmsv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.130"
+  },
+  {
+    "abbreviation_lower": "rm osmc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.130"
+  },
+  {
+    "abbreviation_lower": "it osmc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.130"
+  },
+  {
+    "abbreviation_lower": "fmsv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.140"
+  },
+  {
+    "abbreviation_lower": "rm osms",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.140"
+  },
+  {
+    "abbreviation_lower": "it oss",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.140"
+  },
+  {
+    "abbreviation_lower": "imsv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.150"
+  },
+  {
+    "abbreviation_lower": "rm osmi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.150"
+  },
+  {
+    "abbreviation_lower": "it osmi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.150"
+  },
+  {
+    "abbreviation_lower": "vwm",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.170"
+  },
+  {
+    "abbreviation_lower": "rm odm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.170"
+  },
+  {
+    "abbreviation_lower": "it opsms",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.170"
+  },
+  {
+    "abbreviation_lower": "bgv kantonale mittelschulen",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/425.500"
+  },
+  {
+    "abbreviation_lower": "rm odt da las scolas medias chantunalas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/425.500"
+  },
+  {
+    "abbreviation_lower": "it out scuole medie superiori cantonali",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/425.500"
+  },
+  {
+    "abbreviation_lower": "hochschulkonkordat",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/427.010"
+  },
+  {
+    "abbreviation_lower": "rm concordat da scola auta",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/427.010"
+  },
+  {
+    "abbreviation_lower": "it concordato sulle scuole universitarie",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/427.010"
+  },
+  {
+    "abbreviation_lower": "ghf",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/427.200"
+  },
+  {
+    "abbreviation_lower": "rm lsap",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/427.200"
+  },
+  {
+    "abbreviation_lower": "it lsur",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/427.200"
+  },
+  {
+    "abbreviation_lower": "vh",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/427.210"
+  },
+  {
+    "abbreviation_lower": "rm osa",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/427.210"
+  },
+  {
+    "abbreviation_lower": "it osu",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/427.210"
+  },
+  {
+    "abbreviation_lower": "vhf",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/427.220"
+  },
+  {
+    "abbreviation_lower": "rm osap",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/427.220"
+  },
+  {
+    "abbreviation_lower": "it osur",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/427.220"
+  },
+  {
+    "abbreviation_lower": "bwbg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.000"
+  },
+  {
+    "abbreviation_lower": "rm lfurm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/430.000"
+  },
+  {
+    "abbreviation_lower": "it lfpfc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/430.000"
+  },
+  {
+    "abbreviation_lower": "bwbgv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.100"
+  },
+  {
+    "abbreviation_lower": "rm ofurm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/430.100"
+  },
+  {
+    "abbreviation_lower": "it ofpfc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/430.100"
+  },
+  {
+    "abbreviation_lower": "bauverordnung bwbg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.150"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun da construcziun lfurm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/430.150"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulle costruzioni lfpfc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/430.150"
+  },
+  {
+    "abbreviation_lower": "gebvafb",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.180"
+  },
+  {
+    "abbreviation_lower": "rm otucfp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/430.180"
+  },
+  {
+    "abbreviation_lower": "it otaucfp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/430.180"
+  },
+  {
+    "abbreviation_lower": "defizitverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.300"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun da deficit",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/430.300"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sul disavanzo",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/430.300"
+  },
+  {
+    "abbreviation_lower": "beitragsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.350"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun da contribuziuns",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/430.350"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sui sussidi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/430.350"
+  },
+  {
+    "abbreviation_lower": "kbmv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.400"
+  },
+  {
+    "abbreviation_lower": "berufsmaturitätsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.400"
+  },
+  {
+    "abbreviation_lower": "kantonale berufsmaturitätsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/430.400"
+  },
+  {
+    "abbreviation_lower": "rm ocmpr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/430.400"
+  },
+  {
+    "abbreviation_lower": "it ocmpr",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/430.400"
+  },
+  {
+    "abbreviation_lower": "agsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/432.000"
+  },
+  {
+    "abbreviation_lower": "rm llss",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/432.000"
+  },
+  {
+    "abbreviation_lower": "it liss",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/432.000"
+  },
+  {
+    "abbreviation_lower": "vozagsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/432.010"
+  },
+  {
+    "abbreviation_lower": "rm otllss",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/432.010"
+  },
+  {
+    "abbreviation_lower": "it oliss",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/432.010"
+  },
+  {
+    "abbreviation_lower": "fortbildungsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/433.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart il perfecziunament",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/433.100"
+  },
+  {
+    "abbreviation_lower": "it legge sull'istruzione complementare",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/433.100"
+  },
+  {
+    "abbreviation_lower": "behindertenintegrationsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/440.100"
+  },
+  {
+    "abbreviation_lower": "big",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/440.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha d'integraziun da persunas cun impediments",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/440.100"
+  },
+  {
+    "abbreviation_lower": "rm lipi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/440.100"
+  },
+  {
+    "abbreviation_lower": "it legge sull'integrazione dei disabili",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/440.100"
+  },
+  {
+    "abbreviation_lower": "it lidis",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/440.100"
+  },
+  {
+    "abbreviation_lower": "behindertenintegrationsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/440.110"
+  },
+  {
+    "abbreviation_lower": "biv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/440.110"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun d'integraziun da persunas cun impediments",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/440.110"
+  },
+  {
+    "abbreviation_lower": "rm oipi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/440.110"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sull'integrazione dei disabili",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/440.110"
+  },
+  {
+    "abbreviation_lower": "it oidis",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/440.110"
+  },
+  {
+    "abbreviation_lower": "stipendiengesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/450.200"
+  },
+  {
+    "abbreviation_lower": "stipg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/450.200"
+  },
+  {
+    "abbreviation_lower": "rm lescha da stipendis",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/450.200"
+  },
+  {
+    "abbreviation_lower": "rm lstip",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/450.200"
+  },
+  {
+    "abbreviation_lower": "it legge sulle borse di studio",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/450.200"
+  },
+  {
+    "abbreviation_lower": "it lcbor",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/450.200"
+  },
+  {
+    "abbreviation_lower": "stipendienverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/450.250"
+  },
+  {
+    "abbreviation_lower": "stipvo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/450.250"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun da stipendis",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/450.250"
+  },
+  {
+    "abbreviation_lower": "rm ostip",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/450.250"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulle borse di studio",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/450.250"
+  },
+  {
+    "abbreviation_lower": "it ocbor",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/450.250"
+  },
+  {
+    "abbreviation_lower": "sportförderungsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/470.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha da promoziun dal sport",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/470.000"
+  },
+  {
+    "abbreviation_lower": "it legge sulla promozione dello sport",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/470.000"
+  },
+  {
+    "abbreviation_lower": "sportförderungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/470.010"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun da promoziun dal sport",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/470.010"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulla promozione dello sport",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/470.010"
+  },
+  {
+    "abbreviation_lower": "gaa",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/490.000"
+  },
+  {
+    "abbreviation_lower": "rm lgda",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/490.000"
+  },
+  {
+    "abbreviation_lower": "it lgaa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/490.000"
+  },
+  {
+    "abbreviation_lower": "vaa",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/490.010"
+  },
+  {
+    "abbreviation_lower": "rm ogda",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/490.010"
+  },
+  {
+    "abbreviation_lower": "it ogaa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/490.010"
+  },
+  {
+    "abbreviation_lower": "spg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/492.100"
+  },
+  {
+    "abbreviation_lower": "rm lling",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/492.100"
+  },
+  {
+    "abbreviation_lower": "it lcling",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/492.100"
+  },
+  {
+    "abbreviation_lower": "spv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/492.110"
+  },
+  {
+    "abbreviation_lower": "rm oling",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/492.110"
+  },
+  {
+    "abbreviation_lower": "it ocling",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/492.110"
+  },
+  {
+    "abbreviation_lower": "kulturförderungsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/494.300"
+  },
+  {
+    "abbreviation_lower": "kfg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/494.300"
+  },
+  {
+    "abbreviation_lower": "rm lpc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/494.300"
+  },
+  {
+    "abbreviation_lower": "it lpcult",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/494.300"
+  },
+  {
+    "abbreviation_lower": "kulturförderungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/494.310"
+  },
+  {
+    "abbreviation_lower": "kfv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/494.310"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart la promoziun da la cultura",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/494.310"
+  },
+  {
+    "abbreviation_lower": "rm opc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/494.310"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulla promozione della cultura",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/494.310"
+  },
+  {
+    "abbreviation_lower": "it opcult",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/494.310"
+  },
+  {
+    "abbreviation_lower": "kantonales natur- und heimatschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/496.000"
+  },
+  {
+    "abbreviation_lower": "knhg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/496.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha chantunala davart la protecziun da la natira e da la patria",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/496.000"
+  },
+  {
+    "abbreviation_lower": "rm lnpgr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/496.000"
+  },
+  {
+    "abbreviation_lower": "it legge cantonale sulla protezione della natura e del paesaggio",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/496.000"
+  },
+  {
+    "abbreviation_lower": "it lcnp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/496.000"
+  },
+  {
+    "abbreviation_lower": "knhv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/496.100"
+  },
+  {
+    "abbreviation_lower": "rm onpgr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/496.100"
+  },
+  {
+    "abbreviation_lower": "it ocnp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/496.100"
+  },
+  {
+    "abbreviation_lower": "nationalparkordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/498.200"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart il parc naziunal",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/498.200"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sul parco nazionale svizzero",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/498.200"
+  },
+  {
+    "abbreviation_lower": "obvn",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/498.210"
+  },
+  {
+    "abbreviation_lower": "rm mcop",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/498.210"
+  },
+  {
+    "abbreviation_lower": "it omdpn",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/498.210"
+  },
+  {
+    "abbreviation_lower": "gesundheitsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/500.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha da sanadad",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/500.000"
+  },
+  {
+    "abbreviation_lower": "it legge sanitaria",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/500.000"
+  },
+  {
+    "abbreviation_lower": "vozgesg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/500.010"
+  },
+  {
+    "abbreviation_lower": "rm otlsan",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/500.010"
+  },
+  {
+    "abbreviation_lower": "it olsan",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/500.010"
+  },
+  {
+    "abbreviation_lower": "einführungsgesetz zum heilmittelgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/500.500"
+  },
+  {
+    "abbreviation_lower": "egzhmg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/500.500"
+  },
+  {
+    "abbreviation_lower": "rm lescha introductiva tar la lescha davart ils products terapeutics",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/500.500"
+  },
+  {
+    "abbreviation_lower": "rm litlpter",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/500.500"
+  },
+  {
+    "abbreviation_lower": "it legge d'applicazione della legge sugli agenti terapeutici",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/500.500"
+  },
+  {
+    "abbreviation_lower": "it ladlater",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/500.500"
+  },
+  {
+    "abbreviation_lower": "verordnung zum einführungsgesetz zum heilmittelgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/500.510"
+  },
+  {
+    "abbreviation_lower": "vozegzhmg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/500.510"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun tar la lescha introductiva tar la lescha davart ils products terapeutics",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/500.510"
+  },
+  {
+    "abbreviation_lower": "rm otlitlpter",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/500.510"
+  },
+  {
+    "abbreviation_lower": "it ordinanza della legge d'applicazione della legge sugli agenti terapeutici",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/500.510"
+  },
+  {
+    "abbreviation_lower": "it oladlater",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/500.510"
+  },
+  {
+    "abbreviation_lower": "suchthilfegesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/500.800"
+  },
+  {
+    "abbreviation_lower": "rm lescha d'agid per persunas toxicomanas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/500.800"
+  },
+  {
+    "abbreviation_lower": "it legge sull'aiuto ai tossicodipendenti",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/500.800"
+  },
+  {
+    "abbreviation_lower": "vzpdgrg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/500.920"
+  },
+  {
+    "abbreviation_lower": "rm otlspgr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/500.920"
+  },
+  {
+    "abbreviation_lower": "it ospgr",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/500.920"
+  },
+  {
+    "abbreviation_lower": "krankenpflegegesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/506.000"
+  },
+  {
+    "abbreviation_lower": "kpg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/506.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha per promover la tgira da persunas malsaunas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/506.000"
+  },
+  {
+    "abbreviation_lower": "rm ltm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/506.000"
+  },
+  {
+    "abbreviation_lower": "it legge sulla cura degli ammalati",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/506.000"
+  },
+  {
+    "abbreviation_lower": "it lca",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/506.000"
+  },
+  {
+    "abbreviation_lower": "verordnung zum krankenpflegegesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/506.060"
+  },
+  {
+    "abbreviation_lower": "vozkpg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/506.060"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun tar la lescha per promover la tgira da persunas malsaunas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/506.060"
+  },
+  {
+    "abbreviation_lower": "rm oltm",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/506.060"
+  },
+  {
+    "abbreviation_lower": "it ordinanza della legge sulla cura degli ammalati",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/506.060"
+  },
+  {
+    "abbreviation_lower": "it olca",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/506.060"
+  },
+  {
+    "abbreviation_lower": "ivhsm",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/506.800"
+  },
+  {
+    "abbreviation_lower": "rm cimfs",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/506.800"
+  },
+  {
+    "abbreviation_lower": "it aimas",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/506.800"
+  },
+  {
+    "abbreviation_lower": "ivhsm",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/506.810"
+  },
+  {
+    "abbreviation_lower": "rm cimfs",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/506.810"
+  },
+  {
+    "abbreviation_lower": "it aimas",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/506.810"
+  },
+  {
+    "abbreviation_lower": "lebensmittelverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/507.100"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun da victualias",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/507.100"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulle derrate alimentari",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/507.100"
+  },
+  {
+    "abbreviation_lower": "gebvlc",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/507.310"
+  },
+  {
+    "abbreviation_lower": "rm otvc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/507.310"
+  },
+  {
+    "abbreviation_lower": "it otacee",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/507.310"
+  },
+  {
+    "abbreviation_lower": "fleischhygieneverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/507.400"
+  },
+  {
+    "abbreviation_lower": "kantonale fleischhygieneverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/507.400"
+  },
+  {
+    "abbreviation_lower": "ruhetagsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/520.100"
+  },
+  {
+    "abbreviation_lower": "it legge sui giorni di riposo",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/520.100"
+  },
+  {
+    "abbreviation_lower": "nav lw",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/535.230"
+  },
+  {
+    "abbreviation_lower": "rm cnl agr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/535.230"
+  },
+  {
+    "abbreviation_lower": "it cnl agr",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/535.230"
+  },
+  {
+    "abbreviation_lower": "nav alp",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/535.250"
+  },
+  {
+    "abbreviation_lower": "rm cnl alp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/535.250"
+  },
+  {
+    "abbreviation_lower": "it cnl alpe",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/535.250"
+  },
+  {
+    "abbreviation_lower": "kpvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/542.100"
+  },
+  {
+    "abbreviation_lower": "rm larp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/542.100"
+  },
+  {
+    "abbreviation_lower": "it lamrp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/542.100"
+  },
+  {
+    "abbreviation_lower": "vozkpvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/542.120"
+  },
+  {
+    "abbreviation_lower": "rm oetlarp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/542.120"
+  },
+  {
+    "abbreviation_lower": "it olamrp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/542.120"
+  },
+  {
+    "abbreviation_lower": "egzahvg/ivg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/544.000"
+  },
+  {
+    "abbreviation_lower": "rm litlavs/lai",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/544.000"
+  },
+  {
+    "abbreviation_lower": "it li alle lavs/lai",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/544.000"
+  },
+  {
+    "abbreviation_lower": "vvzegzahvg/ivg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/544.010"
+  },
+  {
+    "abbreviation_lower": "rm litlavs/lai",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/544.010"
+  },
+  {
+    "abbreviation_lower": "it oeli alle lavs/lai",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/544.010"
+  },
+  {
+    "abbreviation_lower": "kantonales gesetz über ergänzungsleistungen",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/544.300"
+  },
+  {
+    "abbreviation_lower": "rm lescha chantunala davart las prestaziuns supplementaras",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/544.300"
+  },
+  {
+    "abbreviation_lower": "it legge cantonale sulle prestazioni complementari",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/544.300"
+  },
+  {
+    "abbreviation_lower": "abzkelg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/544.320"
+  },
+  {
+    "abbreviation_lower": "rm detlcps",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/544.320"
+  },
+  {
+    "abbreviation_lower": "it delcpc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/544.320"
+  },
+  {
+    "abbreviation_lower": "egzavg/avig",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/545.100"
+  },
+  {
+    "abbreviation_lower": "rm litlil/ladi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/545.100"
+  },
+  {
+    "abbreviation_lower": "it ladlc/ladi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/545.100"
+  },
+  {
+    "abbreviation_lower": "vozegzavg/avig",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/545.270"
+  },
+  {
+    "abbreviation_lower": "rm otlitlil/ladi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/545.270"
+  },
+  {
+    "abbreviation_lower": "it oladlc/ladi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/545.270"
+  },
+  {
+    "abbreviation_lower": "sozialhilfegesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/546.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart l'agid social",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/546.100"
+  },
+  {
+    "abbreviation_lower": "it legge sull'assistenza sociale",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/546.100"
+  },
+  {
+    "abbreviation_lower": "kantonales unterstützungsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/546.250"
+  },
+  {
+    "abbreviation_lower": "unterstützungsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/546.250"
+  },
+  {
+    "abbreviation_lower": "rm lescha chantunala da sustegn",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/546.250"
+  },
+  {
+    "abbreviation_lower": "it legge cantonale sull'assistenza",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/546.250"
+  },
+  {
+    "abbreviation_lower": "abzug",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/546.270"
+  },
+  {
+    "abbreviation_lower": "rm detls",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/546.270"
+  },
+  {
+    "abbreviation_lower": "it delcass",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/546.270"
+  },
+  {
+    "abbreviation_lower": "ivse",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/546.700"
+  },
+  {
+    "abbreviation_lower": "rm ciis",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/546.700"
+  },
+  {
+    "abbreviation_lower": "it ciis",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/546.700"
+  },
+  {
+    "abbreviation_lower": "ivse",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/546.710"
+  },
+  {
+    "abbreviation_lower": "rm ciis",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/546.710"
+  },
+  {
+    "abbreviation_lower": "it ciis",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/546.710"
+  },
+  {
+    "abbreviation_lower": "kfzg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/548.100"
+  },
+  {
+    "abbreviation_lower": "rm lsf",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/548.100"
+  },
+  {
+    "abbreviation_lower": "it laf",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/548.100"
+  },
+  {
+    "abbreviation_lower": "abzkfzg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/548.120"
+  },
+  {
+    "abbreviation_lower": "rm dertlsf",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/548.120"
+  },
+  {
+    "abbreviation_lower": "it de laf",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/548.120"
+  },
+  {
+    "abbreviation_lower": "vvzohg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/549.100"
+  },
+  {
+    "abbreviation_lower": "rm oecgtlav",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/549.100"
+  },
+  {
+    "abbreviation_lower": "it oe della lav",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/549.100"
+  },
+  {
+    "abbreviation_lower": "polg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/613.000"
+  },
+  {
+    "abbreviation_lower": "rm lpol",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/613.000"
+  },
+  {
+    "abbreviation_lower": "it lpol",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/613.000"
+  },
+  {
+    "abbreviation_lower": "polv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/613.100"
+  },
+  {
+    "abbreviation_lower": "polizeiverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/613.100"
+  },
+  {
+    "abbreviation_lower": "rm opol",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/613.100"
+  },
+  {
+    "abbreviation_lower": "it opol",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/613.100"
+  },
+  {
+    "abbreviation_lower": "polizeikostenverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/613.140"
+  },
+  {
+    "abbreviation_lower": "polkostv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/613.140"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart ils custs da polizia",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/613.140"
+  },
+  {
+    "abbreviation_lower": "rm ocustspol",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/613.140"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sulle spese di polizia",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/613.140"
+  },
+  {
+    "abbreviation_lower": "it ospepol",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/613.140"
+  },
+  {
+    "abbreviation_lower": "rvzbwis",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/613.190"
+  },
+  {
+    "abbreviation_lower": "rm otlmsi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/613.190"
+  },
+  {
+    "abbreviation_lower": "it odlmsi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/613.190"
+  },
+  {
+    "abbreviation_lower": "egzaag",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/618.100"
+  },
+  {
+    "abbreviation_lower": "rm litlea",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/618.100"
+  },
+  {
+    "abbreviation_lower": "it ladlsa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/618.100"
+  },
+  {
+    "abbreviation_lower": "rvzegzaag",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/618.110"
+  },
+  {
+    "abbreviation_lower": "rm otlitlea",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/618.110"
+  },
+  {
+    "abbreviation_lower": "it oladlsa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/618.110"
+  },
+  {
+    "abbreviation_lower": "egzwpeg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/620.100"
+  },
+  {
+    "abbreviation_lower": "rm litltes",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/620.100"
+  },
+  {
+    "abbreviation_lower": "it ladlteo",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/620.100"
+  },
+  {
+    "abbreviation_lower": "bevölkerungsschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/630.000"
+  },
+  {
+    "abbreviation_lower": "bsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/630.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart la protecziun da la populaziun",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/630.000"
+  },
+  {
+    "abbreviation_lower": "rm lppc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/630.000"
+  },
+  {
+    "abbreviation_lower": "it legge sulla protezione della popolazione",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/630.000"
+  },
+  {
+    "abbreviation_lower": "it lcpp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/630.000"
+  },
+  {
+    "abbreviation_lower": "vozbsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/630.010"
+  },
+  {
+    "abbreviation_lower": "rm ortlppc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/630.010"
+  },
+  {
+    "abbreviation_lower": "it olcpp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/630.010"
+  },
+  {
+    "abbreviation_lower": "zivilschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/640.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha da protecziun civila",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/640.100"
+  },
+  {
+    "abbreviation_lower": "it legge sulla protezione civile",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/640.100"
+  },
+  {
+    "abbreviation_lower": "vozzsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/640.110"
+  },
+  {
+    "abbreviation_lower": "rm otlpc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/640.110"
+  },
+  {
+    "abbreviation_lower": "it olcpci",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/640.110"
+  },
+  {
+    "abbreviation_lower": "finanzhaushaltsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/710.100"
+  },
+  {
+    "abbreviation_lower": "fhg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/710.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha da finanzas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/710.100"
+  },
+  {
+    "abbreviation_lower": "rm lfc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/710.100"
+  },
+  {
+    "abbreviation_lower": "it lgf",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/710.100"
+  },
+  {
+    "abbreviation_lower": "fhv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/710.110"
+  },
+  {
+    "abbreviation_lower": "rm ofc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/710.110"
+  },
+  {
+    "abbreviation_lower": "it ogfc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/710.110"
+  },
+  {
+    "abbreviation_lower": "gfa",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/710.300"
+  },
+  {
+    "abbreviation_lower": "rm lsfi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/710.300"
+  },
+  {
+    "abbreviation_lower": "it lvf",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/710.300"
+  },
+  {
+    "abbreviation_lower": "landeslotterie-reglement",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/710.600"
+  },
+  {
+    "abbreviation_lower": "llr",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/710.600"
+  },
+  {
+    "abbreviation_lower": "rm reglament davart la lottaria naziunala",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/710.600"
+  },
+  {
+    "abbreviation_lower": "rm rln",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/710.600"
+  },
+  {
+    "abbreviation_lower": "it regolamento sulla lotteria",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/710.600"
+  },
+  {
+    "abbreviation_lower": "it rfl",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/710.600"
+  },
+  {
+    "abbreviation_lower": "abzstg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/720.015"
+  },
+  {
+    "abbreviation_lower": "rm dertlt",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/720.015"
+  },
+  {
+    "abbreviation_lower": "it delig",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/720.015"
+  },
+  {
+    "abbreviation_lower": "gkstg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/720.200"
+  },
+  {
+    "abbreviation_lower": "rm ltctb",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/720.200"
+  },
+  {
+    "abbreviation_lower": "it limpcc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/720.200"
+  },
+  {
+    "abbreviation_lower": "rahmenvereinbarung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/730.110"
+  },
+  {
+    "abbreviation_lower": "irv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/730.110"
+  },
+  {
+    "abbreviation_lower": "rm cunvegna da basa",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/730.110"
+  },
+  {
+    "abbreviation_lower": "rm cbi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/730.110"
+  },
+  {
+    "abbreviation_lower": "it convenzione quadro intercantonale",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/730.110"
+  },
+  {
+    "abbreviation_lower": "it cqi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/730.110"
+  },
+  {
+    "abbreviation_lower": "finanzausgleichsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/730.200"
+  },
+  {
+    "abbreviation_lower": "fag",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/730.200"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart la gulivaziun da finanzas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/730.200"
+  },
+  {
+    "abbreviation_lower": "rm lgf",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/730.200"
+  },
+  {
+    "abbreviation_lower": "it legge sulla perequazione finanziaria",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/730.200"
+  },
+  {
+    "abbreviation_lower": "it lpfc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/730.200"
+  },
+  {
+    "abbreviation_lower": "fav",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/730.220"
+  },
+  {
+    "abbreviation_lower": "rm ogf",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/730.220"
+  },
+  {
+    "abbreviation_lower": "it opf",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/730.220"
+  },
+  {
+    "abbreviation_lower": "kjg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.000"
+  },
+  {
+    "abbreviation_lower": "jagdgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.000"
+  },
+  {
+    "abbreviation_lower": "kantonales jagdgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.000"
+  },
+  {
+    "abbreviation_lower": "rm lcc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.000"
+  },
+  {
+    "abbreviation_lower": "it lcc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.000"
+  },
+  {
+    "abbreviation_lower": "kjv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.010"
+  },
+  {
+    "abbreviation_lower": "jagdverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.010"
+  },
+  {
+    "abbreviation_lower": "kantonale jagdverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.010"
+  },
+  {
+    "abbreviation_lower": "rm occ",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.010"
+  },
+  {
+    "abbreviation_lower": "it occ",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.010"
+  },
+  {
+    "abbreviation_lower": "rjv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.020"
+  },
+  {
+    "abbreviation_lower": "rm orch",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.020"
+  },
+  {
+    "abbreviation_lower": "it ogc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.020"
+  },
+  {
+    "abbreviation_lower": "jagdbetriebsvorschriften",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.025"
+  },
+  {
+    "abbreviation_lower": "jbv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.025"
+  },
+  {
+    "abbreviation_lower": "rm prescripziuns da chatscha",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.025"
+  },
+  {
+    "abbreviation_lower": "rm oech",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.025"
+  },
+  {
+    "abbreviation_lower": "it prescrizioni per l'esercizio della caccia",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.025"
+  },
+  {
+    "abbreviation_lower": "it pec",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.025"
+  },
+  {
+    "abbreviation_lower": "obvj",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.030"
+  },
+  {
+    "abbreviation_lower": "rm omc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.030"
+  },
+  {
+    "abbreviation_lower": "it omdc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.030"
+  },
+  {
+    "abbreviation_lower": "vwl",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.040"
+  },
+  {
+    "abbreviation_lower": "vww",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.050"
+  },
+  {
+    "abbreviation_lower": "jpgv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.060"
+  },
+  {
+    "abbreviation_lower": "rm otpch",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.060"
+  },
+  {
+    "abbreviation_lower": "it otlc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.060"
+  },
+  {
+    "abbreviation_lower": "kjpv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.100"
+  },
+  {
+    "abbreviation_lower": "jagdprüfungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.100"
+  },
+  {
+    "abbreviation_lower": "kantonale jagdprüfungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.100"
+  },
+  {
+    "abbreviation_lower": "rm ocech",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.100"
+  },
+  {
+    "abbreviation_lower": "it ocec",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.100"
+  },
+  {
+    "abbreviation_lower": "vjsp",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.110"
+  },
+  {
+    "abbreviation_lower": "rm ootch",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.110"
+  },
+  {
+    "abbreviation_lower": "it otco",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.110"
+  },
+  {
+    "abbreviation_lower": "vwsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.200"
+  },
+  {
+    "abbreviation_lower": "rm oasel",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.200"
+  },
+  {
+    "abbreviation_lower": "it ozps",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.200"
+  },
+  {
+    "abbreviation_lower": "khv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.300"
+  },
+  {
+    "abbreviation_lower": "hegeverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.300"
+  },
+  {
+    "abbreviation_lower": "kantonale hegeverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.300"
+  },
+  {
+    "abbreviation_lower": "rm octs",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.300"
+  },
+  {
+    "abbreviation_lower": "it occs",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.300"
+  },
+  {
+    "abbreviation_lower": "kstv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.330"
+  },
+  {
+    "abbreviation_lower": "steinwildverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.330"
+  },
+  {
+    "abbreviation_lower": "kantonale steinwildverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.330"
+  },
+  {
+    "abbreviation_lower": "rm ocapr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.330"
+  },
+  {
+    "abbreviation_lower": "it ocstam",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.330"
+  },
+  {
+    "abbreviation_lower": "jhv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.350"
+  },
+  {
+    "abbreviation_lower": "jagdhundeverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.350"
+  },
+  {
+    "abbreviation_lower": "kantonale jagdhundeverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.350"
+  },
+  {
+    "abbreviation_lower": "dvo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.400"
+  },
+  {
+    "abbreviation_lower": "it oscp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.400"
+  },
+  {
+    "abbreviation_lower": "rejk",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.500"
+  },
+  {
+    "abbreviation_lower": "rm rcc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/740.500"
+  },
+  {
+    "abbreviation_lower": "it rcc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/740.500"
+  },
+  {
+    "abbreviation_lower": "kfg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.100"
+  },
+  {
+    "abbreviation_lower": "fischereigesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.100"
+  },
+  {
+    "abbreviation_lower": "kantonales fischereigesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.100"
+  },
+  {
+    "abbreviation_lower": "rm lcp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/760.100"
+  },
+  {
+    "abbreviation_lower": "it lcp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/760.100"
+  },
+  {
+    "abbreviation_lower": "kfv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.150"
+  },
+  {
+    "abbreviation_lower": "fischereiverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.150"
+  },
+  {
+    "abbreviation_lower": "kantonale fischereiverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.150"
+  },
+  {
+    "abbreviation_lower": "rm ocp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/760.150"
+  },
+  {
+    "abbreviation_lower": "it ope",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/760.150"
+  },
+  {
+    "abbreviation_lower": "fischereibetriebsvorschriften",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.155"
+  },
+  {
+    "abbreviation_lower": "fbv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.155"
+  },
+  {
+    "abbreviation_lower": "rm prescripziuns da pestga",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/760.155"
+  },
+  {
+    "abbreviation_lower": "rm pp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/760.155"
+  },
+  {
+    "abbreviation_lower": "it prescrizioni per l'esercizio della pesca",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/760.155"
+  },
+  {
+    "abbreviation_lower": "it pep",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/760.155"
+  },
+  {
+    "abbreviation_lower": "obvf",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.160"
+  },
+  {
+    "abbreviation_lower": "rm omp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/760.160"
+  },
+  {
+    "abbreviation_lower": "it omdp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/760.160"
+  },
+  {
+    "abbreviation_lower": "pgbv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.180"
+  },
+  {
+    "abbreviation_lower": "rm otp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/760.180"
+  },
+  {
+    "abbreviation_lower": "it otp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/760.180"
+  },
+  {
+    "abbreviation_lower": "refk",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/760.300"
+  },
+  {
+    "abbreviation_lower": "rm rcp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/760.300"
+  },
+  {
+    "abbreviation_lower": "it recp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/760.300"
+  },
+  {
+    "abbreviation_lower": "imv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/800.110"
+  },
+  {
+    "abbreviation_lower": "rm oim",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/800.110"
+  },
+  {
+    "abbreviation_lower": "it oimm",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/800.110"
+  },
+  {
+    "abbreviation_lower": "krg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/801.100"
+  },
+  {
+    "abbreviation_lower": "rm lptgr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/801.100"
+  },
+  {
+    "abbreviation_lower": "it lptc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/801.100"
+  },
+  {
+    "abbreviation_lower": "krvo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/801.110"
+  },
+  {
+    "abbreviation_lower": "rm optgr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/801.110"
+  },
+  {
+    "abbreviation_lower": "it optc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/801.110"
+  },
+  {
+    "abbreviation_lower": "umnutzungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/801.150"
+  },
+  {
+    "abbreviation_lower": "uvo",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/801.150"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart la midada d'utilisaziun",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/801.150"
+  },
+  {
+    "abbreviation_lower": "rm omu",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/801.150"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sul cambio di utilizzazione",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/801.150"
+  },
+  {
+    "abbreviation_lower": "it ocu",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/801.150"
+  },
+  {
+    "abbreviation_lower": "entv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/803.110"
+  },
+  {
+    "abbreviation_lower": "rm oexp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/803.110"
+  },
+  {
+    "abbreviation_lower": "ivöb",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/803.510"
+  },
+  {
+    "abbreviation_lower": "rm ciap",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/803.510"
+  },
+  {
+    "abbreviation_lower": "it ciap",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/803.510"
+  },
+  {
+    "abbreviation_lower": "egzivöb",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/803.600"
+  },
+  {
+    "abbreviation_lower": "rm litciap",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/803.600"
+  },
+  {
+    "abbreviation_lower": "it ladciap",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/803.600"
+  },
+  {
+    "abbreviation_lower": "rvzegzivöb",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/803.610"
+  },
+  {
+    "abbreviation_lower": "rm ortlitciap",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/803.610"
+  },
+  {
+    "abbreviation_lower": "it oladciap",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/803.610"
+  },
+  {
+    "abbreviation_lower": "ivöb",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/803.710"
+  },
+  {
+    "abbreviation_lower": "rm ciap",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/803.710"
+  },
+  {
+    "abbreviation_lower": "it ciap",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/803.710"
+  },
+  {
+    "abbreviation_lower": "strg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/807.100"
+  },
+  {
+    "abbreviation_lower": "rm lvias",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/807.100"
+  },
+  {
+    "abbreviation_lower": "it lstra",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/807.100"
+  },
+  {
+    "abbreviation_lower": "strv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/807.110"
+  },
+  {
+    "abbreviation_lower": "rm ovias",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/807.110"
+  },
+  {
+    "abbreviation_lower": "it ostra",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/807.110"
+  },
+  {
+    "abbreviation_lower": "wasserbaugesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/807.700"
+  },
+  {
+    "abbreviation_lower": "kwbg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/807.700"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart la correcziun dals curs d'aua",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/807.700"
+  },
+  {
+    "abbreviation_lower": "rm lcca",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/807.700"
+  },
+  {
+    "abbreviation_lower": "it lcsca",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/807.700"
+  },
+  {
+    "abbreviation_lower": "bwrg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/810.100"
+  },
+  {
+    "abbreviation_lower": "rm ldag",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/810.100"
+  },
+  {
+    "abbreviation_lower": "it lgda",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/810.100"
+  },
+  {
+    "abbreviation_lower": "bwrv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/810.110"
+  },
+  {
+    "abbreviation_lower": "rm odag",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/810.110"
+  },
+  {
+    "abbreviation_lower": "it ogda",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/810.110"
+  },
+  {
+    "abbreviation_lower": "vwpst",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/810.115"
+  },
+  {
+    "abbreviation_lower": "rm otaop",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/810.115"
+  },
+  {
+    "abbreviation_lower": "it oiiisp",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/810.115"
+  },
+  {
+    "abbreviation_lower": "vreg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/810.120"
+  },
+  {
+    "abbreviation_lower": "versicherungsreglement",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/810.120"
+  },
+  {
+    "abbreviation_lower": "rm rega",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/810.120"
+  },
+  {
+    "abbreviation_lower": "kstav",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/810.130"
+  },
+  {
+    "abbreviation_lower": "rm ocia",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/810.130"
+  },
+  {
+    "abbreviation_lower": "it ovima",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/810.130"
+  },
+  {
+    "abbreviation_lower": "stromvg gr",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/812.100"
+  },
+  {
+    "abbreviation_lower": "rm lprel gr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/812.100"
+  },
+  {
+    "abbreviation_lower": "it lael gr",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/812.100"
+  },
+  {
+    "abbreviation_lower": "kantonales gewässerschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/815.100"
+  },
+  {
+    "abbreviation_lower": "kgschg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/815.100"
+  },
+  {
+    "abbreviation_lower": "gewässerschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/815.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha chantunala davart la protecziun da las auas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/815.100"
+  },
+  {
+    "abbreviation_lower": "rm lcpa",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/815.100"
+  },
+  {
+    "abbreviation_lower": "it legge cantonale sulla protezione delle acque",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/815.100"
+  },
+  {
+    "abbreviation_lower": "it lcpac",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/815.100"
+  },
+  {
+    "abbreviation_lower": "kantonale gewässerschutzverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/815.200"
+  },
+  {
+    "abbreviation_lower": "kgschv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/815.200"
+  },
+  {
+    "abbreviation_lower": "gewässerschutzverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/815.200"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun chantunala davart la protecziun da las auas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/815.200"
+  },
+  {
+    "abbreviation_lower": "rm ocpa",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/815.200"
+  },
+  {
+    "abbreviation_lower": "it ordinanza cantonale sulla protezione delle acque",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/815.200"
+  },
+  {
+    "abbreviation_lower": "it ocpac",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/815.200"
+  },
+  {
+    "abbreviation_lower": "abzkgschv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/815.210"
+  },
+  {
+    "abbreviation_lower": "rm detocpa",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/815.210"
+  },
+  {
+    "abbreviation_lower": "it deocpac",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/815.210"
+  },
+  {
+    "abbreviation_lower": "schadendienstverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/815.500"
+  },
+  {
+    "abbreviation_lower": "kantonales umweltschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.100"
+  },
+  {
+    "abbreviation_lower": "kusg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.100"
+  },
+  {
+    "abbreviation_lower": "umweltschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha chantunala davart la protecziun da l'ambient",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/820.100"
+  },
+  {
+    "abbreviation_lower": "rm lcpamb",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/820.100"
+  },
+  {
+    "abbreviation_lower": "it legge cantonale sulla protezione dell'ambiente",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/820.100"
+  },
+  {
+    "abbreviation_lower": "it lcpamb",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/820.100"
+  },
+  {
+    "abbreviation_lower": "kusv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.110"
+  },
+  {
+    "abbreviation_lower": "umweltschutzverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.110"
+  },
+  {
+    "abbreviation_lower": "kantonale umweltschutzverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.110"
+  },
+  {
+    "abbreviation_lower": "rm ocpamb",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/820.110"
+  },
+  {
+    "abbreviation_lower": "it ocpamb",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/820.110"
+  },
+  {
+    "abbreviation_lower": "kvuvp",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.150"
+  },
+  {
+    "abbreviation_lower": "rm ocee",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/820.150"
+  },
+  {
+    "abbreviation_lower": "it oceia",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/820.150"
+  },
+  {
+    "abbreviation_lower": "beg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.200"
+  },
+  {
+    "abbreviation_lower": "rm leg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/820.200"
+  },
+  {
+    "abbreviation_lower": "it lge",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/820.200"
+  },
+  {
+    "abbreviation_lower": "bev",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/820.210"
+  },
+  {
+    "abbreviation_lower": "rm oeg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/820.210"
+  },
+  {
+    "abbreviation_lower": "it oge",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/820.210"
+  },
+  {
+    "abbreviation_lower": "gebäudeversicherungsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/830.100"
+  },
+  {
+    "abbreviation_lower": "gebvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/830.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart l'assicuranza d'edifizis",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/830.100"
+  },
+  {
+    "abbreviation_lower": "rm lae",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/830.100"
+  },
+  {
+    "abbreviation_lower": "it legge sull'assicurazione fabbricati",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/830.100"
+  },
+  {
+    "abbreviation_lower": "it lafab",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/830.100"
+  },
+  {
+    "abbreviation_lower": "verordnung zum gebäudeversicherungsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/830.110"
+  },
+  {
+    "abbreviation_lower": "vozgebvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/830.110"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun tar la lescha davart l'assicuranza d'edifizis",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/830.110"
+  },
+  {
+    "abbreviation_lower": "rm oae",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/830.110"
+  },
+  {
+    "abbreviation_lower": "it o relativa alla legge sull'assicurazione fabbricati",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/830.110"
+  },
+  {
+    "abbreviation_lower": "it olafab",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/830.110"
+  },
+  {
+    "abbreviation_lower": "gve",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/835.100"
+  },
+  {
+    "abbreviation_lower": "rm lide",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/835.100"
+  },
+  {
+    "abbreviation_lower": "it lidn",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/835.100"
+  },
+  {
+    "abbreviation_lower": "vve",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/835.120"
+  },
+  {
+    "abbreviation_lower": "rm oide",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/835.120"
+  },
+  {
+    "abbreviation_lower": "it oidn",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/835.120"
+  },
+  {
+    "abbreviation_lower": "brandschutzgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/840.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart la protecziun cunter incendis",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/840.100"
+  },
+  {
+    "abbreviation_lower": "it legge sulla protezione antincendio",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/840.100"
+  },
+  {
+    "abbreviation_lower": "ibg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/850.100"
+  },
+  {
+    "abbreviation_lower": "rm lvi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/850.100"
+  },
+  {
+    "abbreviation_lower": "it lvi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/850.100"
+  },
+  {
+    "abbreviation_lower": "vaib",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/850.110"
+  },
+  {
+    "abbreviation_lower": "rm ovi",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/850.110"
+  },
+  {
+    "abbreviation_lower": "it ovi",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/850.110"
+  },
+  {
+    "abbreviation_lower": "egzsvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/870.100"
+  },
+  {
+    "abbreviation_lower": "rm litltv",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/870.100"
+  },
+  {
+    "abbreviation_lower": "it lalcstr",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/870.100"
+  },
+  {
+    "abbreviation_lower": "rvzegzsvg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/870.110"
+  },
+  {
+    "abbreviation_lower": "rm ortlitltv",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/870.110"
+  },
+  {
+    "abbreviation_lower": "it olalcstr",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/870.110"
+  },
+  {
+    "abbreviation_lower": "strassenverkehrsgebührenverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/870.130"
+  },
+  {
+    "abbreviation_lower": "strgebv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/870.130"
+  },
+  {
+    "abbreviation_lower": "rm ottv",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/870.130"
+  },
+  {
+    "abbreviation_lower": "it otcs",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/870.130"
+  },
+  {
+    "abbreviation_lower": "göv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/872.100"
+  },
+  {
+    "abbreviation_lower": "rm ltrp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/872.100"
+  },
+  {
+    "abbreviation_lower": "it ltpubb",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/872.100"
+  },
+  {
+    "abbreviation_lower": "vöv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/872.150"
+  },
+  {
+    "abbreviation_lower": "rm otrp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/872.150"
+  },
+  {
+    "abbreviation_lower": "it otpubb",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/872.150"
+  },
+  {
+    "abbreviation_lower": "klfv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/875.100"
+  },
+  {
+    "abbreviation_lower": "luftfahrtverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/875.100"
+  },
+  {
+    "abbreviation_lower": "kantonale luftfahrtverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/875.100"
+  },
+  {
+    "abbreviation_lower": "rm oca",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/875.100"
+  },
+  {
+    "abbreviation_lower": "it ocna",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/875.100"
+  },
+  {
+    "abbreviation_lower": "egzumbsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/877.100"
+  },
+  {
+    "abbreviation_lower": "rm litlni",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/877.100"
+  },
+  {
+    "abbreviation_lower": "it li alla lni",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/877.100"
+  },
+  {
+    "abbreviation_lower": "rabzegzumbsg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/877.110"
+  },
+  {
+    "abbreviation_lower": "rm dertlitarlni",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/877.110"
+  },
+  {
+    "abbreviation_lower": "it de della lilni",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/877.110"
+  },
+  {
+    "abbreviation_lower": "binnenschifffahrtsgebührenverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/877.120"
+  },
+  {
+    "abbreviation_lower": "bsgebv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/877.120"
+  },
+  {
+    "abbreviation_lower": "rm otni",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/877.120"
+  },
+  {
+    "abbreviation_lower": "it otni",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/877.120"
+  },
+  {
+    "abbreviation_lower": "landwirtschaftsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/910.000"
+  },
+  {
+    "abbreviation_lower": "rm lescha d'agricultura",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/910.000"
+  },
+  {
+    "abbreviation_lower": "it legge sull'agricoltura",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/910.000"
+  },
+  {
+    "abbreviation_lower": "landwirtschaftsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/910.050"
+  },
+  {
+    "abbreviation_lower": "kgschvl",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/910.150"
+  },
+  {
+    "abbreviation_lower": "rm ocpaagr",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/910.150"
+  },
+  {
+    "abbreviation_lower": "it opaa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/910.150"
+  },
+  {
+    "abbreviation_lower": "abzlkg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/910.400"
+  },
+  {
+    "abbreviation_lower": "rm dertaca",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/910.400"
+  },
+  {
+    "abbreviation_lower": "it dedcca",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/910.400"
+  },
+  {
+    "abbreviation_lower": "viehwirtschaftsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/912.010"
+  },
+  {
+    "abbreviation_lower": "vetg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/914.000"
+  },
+  {
+    "abbreviation_lower": "veterinärgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/914.000"
+  },
+  {
+    "abbreviation_lower": "rm lvet",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/914.000"
+  },
+  {
+    "abbreviation_lower": "it lvet",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/914.000"
+  },
+  {
+    "abbreviation_lower": "vetv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/914.100"
+  },
+  {
+    "abbreviation_lower": "veterinärverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/914.100"
+  },
+  {
+    "abbreviation_lower": "rm ovet",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/914.100"
+  },
+  {
+    "abbreviation_lower": "it ovet",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/914.100"
+  },
+  {
+    "abbreviation_lower": "sömv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/914.200"
+  },
+  {
+    "abbreviation_lower": "sömmerungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/914.200"
+  },
+  {
+    "abbreviation_lower": "rm oalp",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/914.200"
+  },
+  {
+    "abbreviation_lower": "it oest",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/914.200"
+  },
+  {
+    "abbreviation_lower": "kantonale weinverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/917.400"
+  },
+  {
+    "abbreviation_lower": "weinverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/917.400"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun chantunala davart il vin",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/917.400"
+  },
+  {
+    "abbreviation_lower": "it ordinanza cantonale sul vino",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/917.400"
+  },
+  {
+    "abbreviation_lower": "kwag",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.100"
+  },
+  {
+    "abbreviation_lower": "waldgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.100"
+  },
+  {
+    "abbreviation_lower": "kantonales waldgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.100"
+  },
+  {
+    "abbreviation_lower": "rm lcg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/920.100"
+  },
+  {
+    "abbreviation_lower": "it lcfo",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/920.100"
+  },
+  {
+    "abbreviation_lower": "kwav",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.110"
+  },
+  {
+    "abbreviation_lower": "waldverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.110"
+  },
+  {
+    "abbreviation_lower": "kantonale waldverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.110"
+  },
+  {
+    "abbreviation_lower": "rm ocg",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/920.110"
+  },
+  {
+    "abbreviation_lower": "it ocfo",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/920.110"
+  },
+  {
+    "abbreviation_lower": "irmv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.150"
+  },
+  {
+    "abbreviation_lower": "rm omir",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/920.150"
+  },
+  {
+    "abbreviation_lower": "it ogir",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/920.150"
+  },
+  {
+    "abbreviation_lower": "vfp",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.600"
+  },
+  {
+    "abbreviation_lower": "rm opf",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/920.600"
+  },
+  {
+    "abbreviation_lower": "it opif",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/920.600"
+  },
+  {
+    "abbreviation_lower": "ifm",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/920.750"
+  },
+  {
+    "abbreviation_lower": "rm sism",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/920.750"
+  },
+  {
+    "abbreviation_lower": "it sfim",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/920.750"
+  },
+  {
+    "abbreviation_lower": "gwe",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/932.100"
+  },
+  {
+    "abbreviation_lower": "wirtschaftsentwicklungsgesetz",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/932.100"
+  },
+  {
+    "abbreviation_lower": "rm lescha davart il svilup economic",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/932.100"
+  },
+  {
+    "abbreviation_lower": "rm lse",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/932.100"
+  },
+  {
+    "abbreviation_lower": "it lse",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/932.100"
+  },
+  {
+    "abbreviation_lower": "it legge sullo sviluppo economico",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/932.100"
+  },
+  {
+    "abbreviation_lower": "vwe",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/932.160"
+  },
+  {
+    "abbreviation_lower": "wirtschaftsentwicklungsverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/932.160"
+  },
+  {
+    "abbreviation_lower": "rm ose",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/932.160"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun per il svilup economic",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/932.160"
+  },
+  {
+    "abbreviation_lower": "it ose",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/932.160"
+  },
+  {
+    "abbreviation_lower": "it ordinanza sullo sviluppo economico",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/932.160"
+  },
+  {
+    "abbreviation_lower": "kantonales covid-19-härtefallgesetz 2022",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/932.200"
+  },
+  {
+    "abbreviation_lower": "khfg 22",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/932.200"
+  },
+  {
+    "abbreviation_lower": "rm lescha chantunala davart cas da direzza covid-19 2022",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/932.200"
+  },
+  {
+    "abbreviation_lower": "rm lcdir 22",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/932.200"
+  },
+  {
+    "abbreviation_lower": "it legge cantonale sui casi di rigore covid-19 2022",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/932.200"
+  },
+  {
+    "abbreviation_lower": "it lccr 22",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/932.200"
+  },
+  {
+    "abbreviation_lower": "kantonale covid-19-härtefallverordnung 2022",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/932.210"
+  },
+  {
+    "abbreviation_lower": "khfv 22",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/932.210"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun chantunala davart covid-19 cas da direzza 2022",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/932.210"
+  },
+  {
+    "abbreviation_lower": "rm ocdir 22",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/932.210"
+  },
+  {
+    "abbreviation_lower": "it ordinanza cantonale sui casi di rigore covid-19 2022",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/932.210"
+  },
+  {
+    "abbreviation_lower": "it occr 22",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/932.210"
+  },
+  {
+    "abbreviation_lower": "vvzkkg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/933.100"
+  },
+  {
+    "abbreviation_lower": "rm oetlcc",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/933.100"
+  },
+  {
+    "abbreviation_lower": "it oe della lcc",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/933.100"
+  },
+  {
+    "abbreviation_lower": "tarifordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/935.310"
+  },
+  {
+    "abbreviation_lower": "rm reglament da tariffas",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/935.310"
+  },
+  {
+    "abbreviation_lower": "it regolamento tariffario",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/935.310"
+  },
+  {
+    "abbreviation_lower": "filmverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/935.400"
+  },
+  {
+    "abbreviation_lower": "kgs",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/935.500"
+  },
+  {
+    "abbreviation_lower": "rm lcgd",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/935.500"
+  },
+  {
+    "abbreviation_lower": "it lcgd",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/935.500"
+  },
+  {
+    "abbreviation_lower": "geldspielverordnung",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/935.510"
+  },
+  {
+    "abbreviation_lower": "vkgs",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/935.510"
+  },
+  {
+    "abbreviation_lower": "rm ordinaziun davart gieus per daners",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/935.510"
+  },
+  {
+    "abbreviation_lower": "rm ocgd",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/935.510"
+  },
+  {
+    "abbreviation_lower": "it ocgd",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/935.510"
+  },
+  {
+    "abbreviation_lower": "gsk",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/935.710"
+  },
+  {
+    "abbreviation_lower": "rm cgd",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/935.710"
+  },
+  {
+    "abbreviation_lower": "it cgd",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/935.710"
+  },
+  {
+    "abbreviation_lower": "ikv 2020",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/935.810"
+  },
+  {
+    "abbreviation_lower": "rm ci 2020",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/935.810"
+  },
+  {
+    "abbreviation_lower": "it ikv 2020",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/935.810"
+  },
+  {
+    "abbreviation_lower": "gwg",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/945.100"
+  },
+  {
+    "abbreviation_lower": "rm lu",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/945.100"
+  },
+  {
+    "abbreviation_lower": "it lepa",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/945.100"
+  },
+  {
+    "abbreviation_lower": "gdt",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/960.100"
+  },
+  {
+    "abbreviation_lower": "rm ltd",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/960.100"
+  },
+  {
+    "abbreviation_lower": "it ltd",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/960.100"
+  },
+  {
+    "abbreviation_lower": "vdt",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/960.110"
+  },
+  {
+    "abbreviation_lower": "rm otd",
+    "url": "https://www.gr-lex.gr.ch/app/rm/texts_of_law/960.110"
+  },
+  {
+    "abbreviation_lower": "it otd",
+    "url": "https://www.gr-lex.gr.ch/app/it/texts_of_law/960.110"
+  },
+  {
+    "abbreviation_lower": "zgb",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "abbreviation_lower": "lol",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "abbreviation_lower": "plattner",
+    "url": "https://doi.org/10.38107/021"
+  },
+  {
+    "abbreviation_lower": "pla",
+    "url": "https://doi.org/10.38107/021"
+  },
+  {
+    "abbreviation_lower": "iktv",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/170.500"
+  }
+]
