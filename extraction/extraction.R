@@ -49,7 +49,7 @@ for (i in 1:nrow(list_of_cantons)) {
     }
     
     dol <- dol %>% 
-      mutate(url = paste0(base_url, language, "/texts_of_law/", law))
+      mutate(url = paste0(base_url, "/app/", language, "/texts_of_law/", law))
     
     write_rds(dol, file = paste0("dataframe_of_laws_", canton_abbreviation, "_", language, ".rds"))
   }
