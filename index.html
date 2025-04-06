@@ -166,7 +166,11 @@
             if (abbreviationOnly in abbreviationMap) {
                 let baseUrl = abbreviationMap[abbreviationOnly];
                 if (article) {
-                    baseUrl += `/art/${article.toLowerCase()}`;
+                    if (baseUrl.startsWith("https://www.zhlaw.ch")) {
+                        baseUrl += `#seq-0-prov-${article.toLowerCase()}`;
+                    } else {
+                        baseUrl += `/art/${article.toLowerCase()}`;
+                    }
                 }
                 window.location.href = baseUrl;
             } else {
