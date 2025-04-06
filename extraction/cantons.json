@@ -1,0 +1,92 @@
+[
+  {
+    "canton": "BE",
+    "url": "https://www.belex.sites.be.ch/app/de/systematic/texts_of_law",
+    "languages": "DE, FR"
+  },
+  {
+    "canton": "LU",
+    "url": "https://srl.lu.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "NW",
+    "url": "https://gesetze.nw.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "OW",
+    "url": "https://gdb.ow.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "GL",
+    "url": "https://gesetze.gl.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "ZG",
+    "url": "https://bgs.zg.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "FR",
+    "url": "https://bdlf.fr.ch/app/de/systematic/texts_of_law",
+    "languages": "FR, DE"
+  },
+  {
+    "canton": "SO",
+    "url": "https://bgs.so.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "BS",
+    "url": "https://www.gesetzessammlung.bs.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "BL",
+    "url": "https://bl.clex.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "SH",
+    "url": "https://rechtsbuch.sh.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "AI",
+    "url": "https://ai.clex.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "AR",
+    "url": "https://ar.clex.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "SG",
+    "url": "https://www.gesetzessammlung.sg.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "GR",
+    "url": "https://www.gr-lex.gr.ch/app/de/systematic/texts_of_law",
+    "languages": "DE, RM, IT"
+  },
+  {
+    "canton": "AG",
+    "url": "https://gesetzessammlungen.ag.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "TG",
+    "url": "https://www.rechtsbuch.tg.ch/app/de/systematic/texts_of_law",
+    "languages": "DE"
+  },
+  {
+    "canton": "VS",
+    "url": "https://lex.vs.ch/app/de/systematic/texts_of_law",
+    "languages": "DE, FR"
+  }
+]
