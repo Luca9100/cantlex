@@ -56,6 +56,20 @@ for (i in 1:nrow(list_of_cantons)) {
 }
 
 
+list_of_dataframes <- list.files("dataframe_of_laws/")
+
+# List all .rds files in the directory
+rds_files <- list.files(path = "dataframe_of_laws", 
+                        pattern = "*.rds", full.names = TRUE)
+
+# Read and combine all .rds files into a single dataframe using tidyverse functions
+combined_df <- rds_files %>%
+  map_df(readRDS) %>% 
+  mut
+
+openxlsx::write.xlsx(combined_df, 
+                     file = "combined_df.xlsx")
+
 
 dol_de <- read_rds("dol_de.rds") %>% 
   mutate(abbreviation = if_else(law == "110.100", "KV", abbreviation)) %>% 
