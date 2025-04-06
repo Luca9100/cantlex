@@ -7,8 +7,7 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="grr.li" content="grr.li ermöglicht einen einfachen und schnellen 
-    Zugriff auf die Erlassse des Kantons Graubünden über Kurztitel und Abkürzungen.">
+    <meta name="grr.li" content="grr.li ermöglicht einen einfachen und schnellen Zugriff auf die Erlassse des Kantons Graubünden über Kurztitel und Abkürzungen.">
     <title>grr.li</title>
     <style>
         body {
@@ -17,134 +16,285 @@
             margin: 50px;
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Center the content vertically */
-            align-items: center; /* Center the content horizontally */
-            height: 90vh; /* Full viewport height */
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background-color: white;
+            color: black;
+            transition: background-color 0.3s, color 0.3s;
         }
+
         h1 {
-            font-size: 64px; /* Larger font size for the title */
+            font-size: 64px;
         }
+
         input {
             padding: 20px;
             width: 300px;
             margin: 10px 0;
-            font-size: 18px; /* Larger font size for the input box */
+            font-size: 18px;
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
+
+        .autocomplete-list {
+            position: absolute;
+            top: calc(100% + 5px);
+            width: 300px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-height: 180px;
+            overflow-y: auto;
+            z-index: 10;
+        }
+
+        .autocomplete-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .autocomplete-item:hover,
+        .autocomplete-item.active {
+            background-color: #efefef;
+        }
+
         .footer {
             font-size: 16px;
             color: lightgrey;
             margin-top: auto;
             padding: 20px 0;
         }
+
         .footer a {
-            text-decoration: none; /* Remove underline */
-            color: lightgrey; /* Keep the text color the same */
+            text-decoration: none;
+            color: lightgrey;
+        }
+
+        body.dark-mode {
+            background-color: #121212;
+            color: #eee;
+        }
+
+        body.dark-mode input {
+            background-color: #1e1e1e;
+            color: #eee;
+            border: 1px solid #555;
+        }
+
+        body.dark-mode .autocomplete-list {
+            background-color: #1e1e1e;
+            border-color: #555;
+        }
+
+        body.dark-mode .autocomplete-item {
+            color: #eee;
+        }
+
+        body.dark-mode .autocomplete-item.active,
+        body.dark-mode .autocomplete-item:hover {
+            background-color: #333;
+        }
+
+        body.dark-mode .footer,
+        body.dark-mode .footer a {
+            color: #aaa;
+        }
+
+        #themeToggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <h1>grr.li</h1>
-    <input 
-        type="text" 
-        id="abbreviation" 
-        placeholder="Abkürzung oder Kurztitel eingeben" 
-        onkeypress="checkEnter(event)"
-        autofocus
-    >
-    <div class="footer">
-     <a href="https://www.grr.li/about">Über grr.li</a> 
-    </div>
-    
-    <script>
-        let abbreviationMap = {}; // Will hold the abbreviation map
+    <button id="themeToggle" onclick="toggleTheme()">🌙</button>
 
-        // Load abbreviation map from JSON file
-        // NOTE: The fetch() API may not work properly when opening the HTML file 
-        // directly from the file system (i.e., with a file:// URL). 
-        // This is because the browser restricts access to local files for 
-        // security reasons when using file:// URLs. 
+    <h1>grr.li</h1>
+    <div style="position: relative;">
+        <input 
+            type="text" 
+            id="abbreviation" 
+            placeholder="Abkürzung oder Kurztitel eingeben" 
+            onkeydown="handleKey(event)"
+            oninput="showSuggestions()"
+            autocomplete="off"
+            autofocus
+        >
+        <div id="autocomplete-list" class="autocomplete-list" style="display: none;"></div>
+    </div>
+
+    <div class="footer">
+        <a href="https://www.grr.li/about">Über grr.li</a> 
+    </div>
+
+    <script>
+        let abbreviationMap = {};
+        let filteredList = [];
+        let selectedIndex = -1;
+
         function loadAbbreviationMap() {
-            fetch('abbreviations.json') // Path to your JSON file
+            fetch('abbreviations.json')
                 .then(response => response.json())
                 .then(data => {
-                    // Populate abbreviationMap with the data from JSON
                     data.forEach(entry => {
                         abbreviationMap[entry.abbreviation_lower] = entry.url;
                     });
-                    // Check for direct resolution on initial load
                     handleDirectResolution();
-                })
-                .catch(error => {
-                    console.error('Error loading abbreviation map:', error);
                 });
         }
 
-        // Handle the search bar resolution
+        function extractArticles(input) {
+            const regex = /\b\d+[a-z]?\b/gi;
+            const matches = input.match(regex);
+            return matches || [];
+        }
+
         function resolveAbbreviation() {
-            const abbreviation = document.getElementById('abbreviation').value.trim().toLowerCase();
-            if (abbreviation in abbreviationMap) {
-                window.location.href = abbreviationMap[abbreviation];
+            const rawInput = document.getElementById('abbreviation').value.trim().toLowerCase();
+            const articles = extractArticles(rawInput);
+            const article = articles.length > 0 ? articles[0] : null;
+            const abbreviationOnly = rawInput.replace(/\b\d+[a-z]?\b/gi, '').trim();
+
+            if (abbreviationOnly in abbreviationMap) {
+                let baseUrl = abbreviationMap[abbreviationOnly];
+                if (article) {
+                    baseUrl += `/art/${article.toLowerCase()}`;
+                }
+                window.location.href = baseUrl;
             } else {
                 alert('Kein Bündner Erlass mit dieser Referenz gefunden');
             }
         }
 
-        // Detect "Enter" key press
-        function checkEnter(event) {
-            if (event.key === 'Enter') {
-                resolveAbbreviation();
+        function handleKey(event) {
+            const list = document.getElementById('autocomplete-list');
+            const input = document.getElementById('abbreviation');
+
+            if (event.key === 'ArrowDown') {
+                event.preventDefault();
+                if (selectedIndex < filteredList.length - 1) selectedIndex++;
+                updateActiveItem();
+            } else if (event.key === 'ArrowUp') {
+                event.preventDefault();
+                if (selectedIndex > 0) selectedIndex--;
+                updateActiveItem();
+            } else if (event.key === 'Enter' || event.key === 'Tab') {
+                if (list.style.display === 'block' && selectedIndex > -1) {
+                    event.preventDefault();
+                    input.value = filteredList[selectedIndex] + " ";
+                    closeSuggestions();
+                } else if (event.key === 'Enter') {
+                    resolveAbbreviation();
+                }
             }
         }
 
-        // Handle direct URL resolution via path
+        function updateActiveItem() {
+            const items = document.querySelectorAll('.autocomplete-item');
+            items.forEach((item, index) => {
+                item.classList.toggle('active', index === selectedIndex);
+            });
+        }
+
+        function showSuggestions() {
+            const input = document.getElementById('abbreviation');
+            const value = input.value.toLowerCase().replace(/\b\d+[a-z]?\b/gi, '').trim();
+            const list = document.getElementById('autocomplete-list');
+            list.innerHTML = '';
+            selectedIndex = -1;
+
+            if (!value) {
+                list.style.display = 'none';
+                return;
+            }
+
+            filteredList = Object.keys(abbreviationMap)
+                .filter(key => key.includes(value))
+                .slice(0, 10); // limit to 10 suggestions
+
+            if (filteredList.length === 0) {
+                list.style.display = 'none';
+                return;
+            }
+
+            filteredList.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.classList.add('autocomplete-item');
+                div.textContent = item;
+                div.onclick = () => {
+                    input.value = item + " ";
+                    input.focus();
+                    closeSuggestions();
+                };
+                list.appendChild(div);
+            });
+
+            list.style.display = 'block';
+        }
+
+        function closeSuggestions() {
+            const list = document.getElementById('autocomplete-list');
+            list.innerHTML = '';
+            list.style.display = 'none';
+            selectedIndex = -1;
+        }
+
+        document.addEventListener('click', (e) => {
+            if (!document.getElementById('abbreviation').contains(e.target)) {
+                closeSuggestions();
+            }
+        });
+
         function handleDirectResolution() {
-            const path = window.location.pathname.slice(1).toLowerCase(); // Get the path without "/"
+            const path = window.location.pathname.slice(1).toLowerCase();
             if (path in abbreviationMap) {
                 window.location.href = abbreviationMap[path];
             }
         }
-        
-        // Array of placeholder texts
+
         const placeholders = [
-          "Abkürzung oder Kurztitel eingeben",
-          "Dar en abbreviaziun cun 'rm'",
-          "Inserire abbreviazione con 'it'",
-          "DVG",
-          "dvg",
-          "Kantonale Weinverordnung",
-          "weinverordnung",
-          "Nationalparkordnung",
-          "nationalparkordnung",
-          "StipVO",
-          "stipvo",
-          "VOzGesG",
-          "rvzegzzpo",
-          "VöV",
-          "vöv",
-          "NAV Alp",
-          "nav alp",
-          "rm LARP",
-          "rm lcc",
-          "rm lescha da transparenza",
-          "rm LLing",
-          "it CNL alpe",
-          "it LCC",
-          "it legge sulle pubblicazioni ufficiali",
-          "it Ordinanza scolastica"
+            "Abkürzung oder Kurztitel eingeben",
+            "Dar en abbreviaziun cun 'rm'",
+            "Inserire abbreviazione con 'it'",
+            "DVG", "dvg", "Kantonale Weinverordnung", "weinverordnung",
+            "Nationalparkordnung", "nationalparkordnung", "StipVO", "stipvo",
+            "VOzGesG", "rvzegzzpo", "VöV", "vöv", "NAV Alp", "nav alp",
+            "rm LARP", "rm lcc", "rm lescha da transparenza", "rm LLing",
+            "it CNL alpe", "it LCC", "it legge sulle pubblicazioni ufficiali",
+            "it Ordinanza scolastica"
         ];
-        
-        // Function to set a random placeholder
+
         function setPlaceholder() {
             const randomIndex = Math.floor(Math.random() * placeholders.length);
             const input = document.getElementById('abbreviation');
             input.placeholder = placeholders[randomIndex];
         }
 
-        // Cycle every 4 seconds
-        setInterval(setPlaceholder, 4000);
+        function toggleTheme() {
+            const body = document.body;
+            const button = document.getElementById('themeToggle');
+            const isDark = body.classList.toggle('dark-mode');
+            button.textContent = isDark ? '☀️' : '🌙';
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        }
 
-        // Load the abbreviation map as soon as the page loads
-        window.onload = loadAbbreviationMap;
+        window.onload = function () {
+            loadAbbreviationMap();
+            setPlaceholder();
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('themeToggle').textContent = '☀️';
+            }
+        };
     </script>
 </body>
 </html>
