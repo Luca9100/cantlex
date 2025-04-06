@@ -1,5 +1,6 @@
 import json
 import html
+import urllib.request
 
 def clean_text(text):
     """Fix encoding issues and decode HTML entities safely."""
@@ -23,9 +24,9 @@ def get_latest_active_version(versions):
     sorted_versions = sorted(versions, key=lambda v: v.get("publikationsdatum", ""), reverse=True)
     return sorted_versions[0] if sorted_versions else {}
 
-def extract_abbreviation_url_map(json_file_path, output_json_path=None):
-    with open(json_file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+def extract_abbreviation_url_map_from_web(url, output_json_path=None):
+    with urllib.request.urlopen(url) as response:
+        data = json.load(response)
 
     output = []
 
@@ -44,7 +45,8 @@ def extract_abbreviation_url_map(json_file_path, output_json_path=None):
                 "abbreviation": abkuerzung,
                 "url": zhlaw_url,
                 "title": title,
-                "canton": "ZH"
+                "canton": "ZH",
+                "language": "de"
             })
 
     # Remove duplicates
@@ -64,8 +66,8 @@ def extract_abbreviation_url_map(json_file_path, output_json_path=None):
 
 # Example usage
 if __name__ == "__main__":
-    input_file = "zurich_laws_input.json"  # Your JSON file path
+    url = "https://www.zhlaw.ch/collection-metadata-zh.json"
     output_file = "zurich_laws_output.json"
 
-    result = extract_abbreviation_url_map(input_file, output_json_path=output_file)
+    result = extract_abbreviation_url_map_from_web(url, output_json_path=output_file)
     print(json.dumps(result[:5], indent=2, ensure_ascii=False))  # Preview first 5
