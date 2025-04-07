@@ -1,3 +1,9 @@
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+    
 name: 'Setup R environment'
 description: 'Setup a R environment and add it to the PATH'
 author: 'Jim Hester'
