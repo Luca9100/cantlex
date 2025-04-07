@@ -46,6 +46,8 @@ def extract_abbreviation_url_map_from_web(url, output_json_path=None):
         title = remove_parentheses_content(title)
 
         abkuerzung = clean_text(entry.get("abkuerzung", ""))
+        if not abkuerzung:
+            abkuerzung = entry.get("ordnungsnummer", "").strip()
 
         if abkuerzung:
             output.append({
