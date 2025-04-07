@@ -22,7 +22,9 @@
       color: black;
       transition: background-color 0.3s, color 0.3s;
     }
-    h1 { font-size: 64px; }
+    h1 {
+      font-size: 64px;
+    }
     input {
       padding: 20px;
       margin: 10px 0;
@@ -31,27 +33,31 @@
       color: #000;
       border: 1px solid #ccc;
       border-radius: 5px;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 500px;
     }
     #cantonInput, #languageInput {
-      width: 170px;
-      color: lightgray;
+      max-width: 170px;
+      color: black;
       border: 1px solid lightgray;
     }
     #abbreviation {
-      width: 500px;
-      color: black;
       border: 1px solid black;
+      color: black;
     }
     .autocomplete-list {
       position: absolute;
       top: calc(100% + 5px);
-      width: 500px;
+      width: 100%;
+      max-width: 500px;
       background: white;
       border: 1px solid #ccc;
       border-radius: 5px;
       max-height: 300px;
       overflow-y: auto;
       z-index: 10;
+      box-sizing: border-box;
     }
     .autocomplete-item {
       padding: 10px;
@@ -71,6 +77,8 @@
       text-decoration: none;
       color: lightgrey;
     }
+  
+    /* Dark mode */
     body.dark-mode {
       background-color: #121212;
       color: #eee;
@@ -103,6 +111,7 @@
     body.dark-mode .footer a {
       color: #aaa;
     }
+  
     #themeToggle {
       position: absolute;
       top: 20px;
@@ -112,7 +121,26 @@
       border: none;
       cursor: pointer;
     }
-  </style>  
+  
+    /* ✅ Responsive adjustments for small screens */
+    @media (max-width: 600px) {
+      body {
+        margin: 20px;
+        height: auto;
+      }
+      h1 {
+        font-size: 42px;
+      }
+      input {
+        padding: 16px;
+        font-size: 16px;
+      }
+      .autocomplete-item {
+        padding: 8px;
+        font-size: 16px;
+      }
+    }
+  </style>   
 </head>
 <body>
   <button id="themeToggle" onclick="toggleTheme()">🌙</button>
@@ -178,12 +206,24 @@
 
     function resolveAbbreviation() {
       const rawInput = document.getElementById("abbreviation").value.trim();
+      const article = extractArticles(rawInput)?.[0] || null;
 
-      // ✅ Extract article at the very end of the input (after selection + typing)
-      const articleMatch = rawInput.match(/\b(\d+[a-z]?)\b$/i);
-      const article = articleMatch ? articleMatch[1] : null;
+      // ✅ Use selected entry if user picked from suggestions
+      if (selectedEntry) {
+        let baseUrl = selectedEntry.url;
+        if (article) {
+          if (baseUrl.startsWith("https://www.zhlaw.ch") && selectedEntry.canton === "ZH") {
+            baseUrl += `#seq-0-prov-${article.toLowerCase()}`;
+          } else {
+            baseUrl += `/art/${article.toLowerCase()}`;
+          }
+        }
+        window.open(baseUrl, "_blank");
+        selectedEntry = null; // reset after use
+        return;
+      }
 
-      // ✅ Remove article only if it's the last part
+      // Otherwise fall back to matching logic
       const inputForMatching = article
         ? rawInput.slice(0, rawInput.toLowerCase().lastIndexOf(article.toLowerCase())).trim()
         : rawInput;
@@ -193,25 +233,25 @@
       const selectedCanton = document.getElementById("cantonInput").value.trim().toUpperCase();
       const selectedLanguage = document.getElementById("languageInput").value.trim().toLowerCase();
 
-    // Step 1: Try exact abbreviation match first
-    let match = allEntries.find((entry) => {
-      const abbr = normalize(entry.abbreviation);
-      const matchesCanton = !selectedCanton || entry.canton === selectedCanton;
-      const matchesLanguage = !selectedLanguage || entry.language === selectedLanguage;
-      return abbr === cleanedInput && matchesCanton && matchesLanguage;
-    });
-
-    // Step 2: If no exact abbreviation match, try partial match (abbr/title)
-    if (!match) {
-      match = allEntries.find((entry) => {
+      // Step 1: Try exact abbreviation match first
+      let match = allEntries.find((entry) => {
         const abbr = normalize(entry.abbreviation);
-        const title = normalize(entry.title);
         const matchesCanton = !selectedCanton || entry.canton === selectedCanton;
         const matchesLanguage = !selectedLanguage || entry.language === selectedLanguage;
-        return (abbr.includes(cleanedInput) || title.includes(cleanedInput) || title === cleanedInput)
-          && matchesCanton && matchesLanguage;
+        return abbr === cleanedInput && matchesCanton && matchesLanguage;
       });
-    }
+
+      // Step 2: If no exact abbreviation match, try partial match (abbr/title)
+      if (!match) {
+        match = allEntries.find((entry) => {
+          const abbr = normalize(entry.abbreviation);
+          const title = normalize(entry.title);
+          const matchesCanton = !selectedCanton || entry.canton === selectedCanton;
+          const matchesLanguage = !selectedLanguage || entry.language === selectedLanguage;
+          return (abbr.includes(cleanedInput) || title.includes(cleanedInput) || title === cleanedInput)
+            && matchesCanton && matchesLanguage;
+        });
+      }
 
       if (match) {
         let baseUrl = match.url;
@@ -227,6 +267,7 @@
         alert("Kein passender Erlass mit dieser Referenz gefunden");
       }
     }
+
 
     function showSuggestions() {
       const input = document.getElementById("abbreviation");
@@ -349,7 +390,7 @@
 
     function setPlaceholder() {
       const examples = [
-        "Abkürzung oder Kurztitel eingeben",
+        "Kürzel oder Titel Artikel",
         "Weinbauverordnung",
         "VRG 5",
         "Gesundheitsgesetz",        
