@@ -47,16 +47,15 @@ def extract_abbreviation_url_map_from_web(url, output_json_path=None):
 
         abkuerzung = clean_text(entry.get("abkuerzung", ""))
         if not abkuerzung:
-            abkuerzung = entry.get("ordnungsnummer", "").strip()
+            abkuerzung = ""
 
-        if abkuerzung:
-            output.append({
-                "abbreviation": abkuerzung,
-                "url": zhlaw_url,
-                "title": title,
-                "canton": "ZH",
-                "language": "de"
-            })
+        output.append({
+            "abbreviation": abkuerzung,
+            "url": zhlaw_url,
+            "title": title,
+            "canton": "ZH",
+            "language": "de"
+        })
 
     # Remove duplicates
     seen = set()
