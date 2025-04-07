@@ -25,7 +25,6 @@
     h1 { font-size: 64px; }
     input {
       padding: 20px;
-      width: 300px;
       margin: 10px 0;
       font-size: 18px;
       background-color: #fff;
@@ -33,14 +32,20 @@
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+    #cantonInput, #languageInput {
+      width: 150px;
+    }
+    #abbreviation {
+      width: 500px;
+    }
     .autocomplete-list {
       position: absolute;
       top: calc(100% + 5px);
-      width: 300px;
+      width: 500px;
       background: white;
       border: 1px solid #ccc;
       border-radius: 5px;
-      max-height: 180px;
+      max-height: 300px;
       overflow-y: auto;
       z-index: 10;
     }
@@ -99,7 +104,23 @@
 </head>
 <body>
   <button id="themeToggle" onclick="toggleTheme()">🌙</button>
-  <h1>grr.li</h1>
+  <h1>gsetz.li</h1>
+
+  <div>
+    <input id="cantonInput" list="cantonList" placeholder="Kanton (z. B. TG)" oninput="showSuggestions()" />
+    <datalist id="cantonList">
+      <option value="BE"><option value="LU"><option value="OW"><option value="NW">
+      <option value="GL"><option value="ZG"><option value="FR"><option value="SO">
+      <option value="BS"><option value="BL"><option value="SH"><option value="AR">
+      <option value="AI"><option value="SG"><option value="GR"><option value="AG">
+      <option value="TG"><option value="VS"><option value="ZH">
+    </datalist>
+
+    <input id="languageInput" list="languageList" placeholder="Sprache (z. B. de)" oninput="showSuggestions()" />
+    <datalist id="languageList">
+      <option value="de"><option value="fr"><option value="it">
+    </datalist>
+  </div>
 
   <div style="position: relative;">
     <input
@@ -123,61 +144,59 @@
     let filteredList = [];
     let selectedIndex = -1;
     let selectedEntry = null;
-  
+
     function loadAbbreviationMap() {
-      console.log("🔄 Loading abbreviation map...");
       fetch("abbreviations.json")
         .then((response) => response.json())
         .then((data) => {
           allEntries = data;
-          console.log(`✅ Loaded ${data.length} entries.`);
           handleDirectResolution();
         })
-        .catch(err => {
-          console.error("❌ Failed to load abbreviations.json:", err);
-        });
+        .catch(err => console.error("❌ Failed to load abbreviations.json:", err));
     }
-  
+
     function extractArticles(input) {
       const regex = /\b\d+[a-z]?\b/gi;
       return input.match(regex) || [];
     }
-  
+
+    function normalize(str) {
+      return (str || "").toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").trim();
+    }
+
     function resolveAbbreviation() {
       const rawInput = document.getElementById("abbreviation").value.trim();
-      const inputLower = rawInput.toLowerCase();
-      const articles = extractArticles(inputLower);
+      const articles = extractArticles(rawInput);
       const article = articles.length > 0 ? articles[0] : null;
-      if (article) console.log("🔎 Article detected:", article);
-  
-      // ✅ Use selected entry if available
-      if (selectedEntry) {
-        let baseUrl = selectedEntry.url;
-        if (article) {
-          if (baseUrl.startsWith("https://www.zhlaw.ch") && selectedEntry.canton === "ZH") {
-            baseUrl += `#seq-0-prov-${article.toLowerCase()}`;
-          } else {
-            baseUrl += `/art/${article.toLowerCase()}`;
-          }
-        }
-        console.log("➡️ Redirecting to selected entry:", baseUrl);
-        window.location.href = baseUrl;
-        return;
-      }
-  
-      // 🧠 Otherwise fallback to fuzzy matching
-      const cleanedInput = inputLower.replace(/\b\d+[a-z]?\b/gi, "").replace(/\s+/g, " ").trim();
-      const normalize = str => (str || "").toLowerCase().trim();
-  
-      const match = allEntries.find((entry) => {
+
+      // Remove only isolated article references (e.g. "5", "5a") at the **end**
+      const inputForMatching = rawInput.replace(/\b\d+[a-z]?\b$/gi, "").trim(); 
+      const cleanedInput = normalize(inputForMatching);
+
+      const selectedCanton = document.getElementById("cantonInput").value.trim().toUpperCase();
+      const selectedLanguage = document.getElementById("languageInput").value.trim().toLowerCase();
+
+    // Step 1: Try exact abbreviation match first
+    let match = allEntries.find((entry) => {
+      const abbr = normalize(entry.abbreviation);
+      const matchesCanton = !selectedCanton || entry.canton === selectedCanton;
+      const matchesLanguage = !selectedLanguage || entry.language === selectedLanguage;
+      return abbr === cleanedInput && matchesCanton && matchesLanguage;
+    });
+
+    // Step 2: If no exact abbreviation match, try partial match (abbr/title)
+    if (!match) {
+      match = allEntries.find((entry) => {
         const abbr = normalize(entry.abbreviation);
         const title = normalize(entry.title);
-        const input = normalize(cleanedInput);
-        return abbr === input || title === input || abbr.includes(input) || title.includes(input);
+        const matchesCanton = !selectedCanton || entry.canton === selectedCanton;
+        const matchesLanguage = !selectedLanguage || entry.language === selectedLanguage;
+        return (abbr.includes(cleanedInput) || title.includes(cleanedInput) || title === cleanedInput)
+          && matchesCanton && matchesLanguage;
       });
-  
+    }
+
       if (match) {
-        console.log("✅ Match found:", match.abbreviation || match.title);
         let baseUrl = match.url;
         if (article) {
           if (baseUrl.startsWith("https://www.zhlaw.ch") && match.canton === "ZH") {
@@ -186,58 +205,70 @@
             baseUrl += `/art/${article.toLowerCase()}`;
           }
         }
-        console.log("➡️ Redirecting to:", baseUrl);
         window.location.href = baseUrl;
       } else {
-        console.warn("❌ Kein passender Erlass gefunden");
         alert("Kein passender Erlass mit dieser Referenz gefunden");
       }
     }
-  
+
     function showSuggestions() {
       const input = document.getElementById("abbreviation");
-      const value = input.value.toLowerCase().replace(/\b\d+[a-z]?\b/gi, "").trim();
+      const value = normalize(input.value.replace(/\b\d+[a-z]?\b/gi, "").trim());
       const list = document.getElementById("autocomplete-list");
       list.innerHTML = "";
       selectedIndex = -1;
-      selectedEntry = null; // 🧹 reset selected entry on input
-  
+      selectedEntry = null;
+
       if (!value) {
         list.style.display = "none";
         return;
       }
-  
+
+      const selectedCanton = (document.getElementById("cantonInput").value.trim().toUpperCase()) || "";
+      const selectedLanguage = (document.getElementById("languageInput").value.trim().toLowerCase()) || "de";
+
+
       filteredList = allEntries.filter((entry) => {
-        const abbr = (entry.abbreviation || "").toLowerCase();
-        const titl = entry.title.toLowerCase();
-        return abbr.includes(value) || titl.includes(value);
+        const abbr = normalize(entry.abbreviation);
+        const titl = normalize(entry.title);
+        const matchesText = abbr.includes(value) || titl.includes(value);
+        const matchesCanton = !selectedCanton || entry.canton === selectedCanton;
+        const matchesLanguage = !selectedLanguage || entry.language === selectedLanguage;
+        return matchesText && matchesCanton && matchesLanguage;
       });
-  
+
       if (filteredList.length === 0) {
         list.style.display = "none";
         return;
       }
-  
+
       filteredList.forEach((entry) => {
         const div = document.createElement("div");
         div.classList.add("autocomplete-item");
         div.textContent = `${entry.abbreviation ? entry.abbreviation + " – " : ""}${entry.title} (${entry.canton})`;
         div.onclick = () => {
-          selectedEntry = entry; // ✅ remember the selected entry
-          document.getElementById("abbreviation").value = (entry.abbreviation || entry.title) + " ";
+          selectedEntry = entry;
+
+          const original = document.getElementById("abbreviation").value;
+          const article = extractArticles(original)?.[0] || "";
+          const display = (entry.abbreviation || entry.title).trim();
+          const withArticle = article ? `${display} ${article}` : display;
+
+          document.getElementById("abbreviation").value = withArticle + " ";
           document.getElementById("abbreviation").focus();
           closeSuggestions();
         };
+
         list.appendChild(div);
       });
-  
+
       list.style.display = "block";
     }
-  
+
     function handleKey(event) {
       const list = document.getElementById("autocomplete-list");
       const input = document.getElementById("abbreviation");
-  
+
       if (event.key === "ArrowDown") {
         event.preventDefault();
         if (selectedIndex < filteredList.length - 1) selectedIndex++;
@@ -249,7 +280,7 @@
       } else if (event.key === "Enter" || event.key === "Tab") {
         if (list.style.display === "block" && selectedIndex > -1) {
           event.preventDefault();
-          selectedEntry = filteredList[selectedIndex]; // ✅ also update on keyboard selection
+          selectedEntry = filteredList[selectedIndex];
           input.value = (selectedEntry.abbreviation || selectedEntry.title) + " ";
           closeSuggestions();
         } else if (event.key === "Enter") {
@@ -257,40 +288,40 @@
         }
       }
     }
-  
+
     function updateActiveItem() {
       const items = document.querySelectorAll(".autocomplete-item");
       items.forEach((item, index) => {
         item.classList.toggle("active", index === selectedIndex);
       });
     }
-  
+
     function closeSuggestions() {
       const list = document.getElementById("autocomplete-list");
       list.innerHTML = "";
       list.style.display = "none";
       selectedIndex = -1;
     }
-  
+
     document.addEventListener("click", (e) => {
       if (!document.getElementById("abbreviation").contains(e.target)) {
         closeSuggestions();
       }
     });
-  
+
     function handleDirectResolution() {
       const path = window.location.pathname.slice(1).toLowerCase().trim();
       if (!path) return;
-  
+
       const entry = allEntries.find(e =>
-        e.abbreviation.toLowerCase() === path || e.title.toLowerCase() === path
+        normalize(e.abbreviation) === path || normalize(e.title) === path
       );
-  
+
       if (entry) {
         window.location.href = entry.url;
       }
     }
-  
+
     function toggleTheme() {
       const body = document.body;
       const button = document.getElementById("themeToggle");
@@ -298,7 +329,7 @@
       button.textContent = isDark ? "☀️" : "🌙";
       localStorage.setItem("theme", isDark ? "dark" : "light");
     }
-  
+
     function setPlaceholder() {
       const examples = [
         "Abkürzung oder Kurztitel eingeben", "StipVO", "GesG", "VV KKG", "ZH 5a", "fr loi", "it legge"
@@ -306,7 +337,7 @@
       const input = document.getElementById("abbreviation");
       input.placeholder = examples[Math.floor(Math.random() * examples.length)];
     }
-  
+
     window.onload = function () {
       loadAbbreviationMap();
       setPlaceholder();
