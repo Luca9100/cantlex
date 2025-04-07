@@ -29,7 +29,8 @@ for (i in 1:nrow(list_of_cantons)) {
     lol <- map(lol_data, ~ .x$systematic_number) %>% unlist() %>% unname()
     
     # Create dataframe of laws
-    dol <- tibble(law = lol, title = NA, abbreviation = NA)
+    dol <- tibble(law = lol, title = NA, abbreviation = NA) %>% 
+      mutate(law = str_replace_all(law, "/", "%2F"))
     
     pb <- progress_bar$new(
       format = "[:bar] Extracting :current of :total, :eta remaining",
