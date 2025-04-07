@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über grr.li</title>
+    <style>
+      html, body {
+            margin: 0; /* Remove default margins */
+            padding: 0; /* Remove default paddings */
+            box-sizing: border-box; /* Include padding and border in element dimensions */
+            height: 100%; /* Ensure the body stretches to the full height of the viewport */
+          }
+        body {
+            display: flex;
+            flex-direction: column; /* Arrange items in a vertical column */
+            justify-content: space-between; /* Push the footer to the bottom when there's space */
+            align-items: center; /* Center the content horizontally */
+            font-family: Arial, sans-serif;
+            overflow-y: auto; /* Allow scrolling if content overflows */
+        }
+        .description {
+            font-size: 16px;
+            text-align: justify;
+            width: 40%;
+            max-width: 600px;
+            min-width: 300px;
+            color: darkgrey;
+            padding: 20px 0;
+            flex-grow: 1; /* Allow the description to grow and fill available space */
+        }
+        .description a {
+            text-decoration: none; /* Remove underline */
+            color: darkgrey; /* Keep the text color the same */
+        }
+        .footer {
+            font-size: 16px;
+            color: lightgrey;
+            padding: 20px 0;
+         }
+        .footer a {
+            text-decoration: none; /* Remove underline */
+            color: lightgrey; /* Keep the text color the same */
+          }
+    </style>
+</head>
+<body>
+    
+    <div class="description">
+    <br>
+    <br>
+    <b>Was ist gsetz.li?</b><br>
+    gsetz.li bietet einen einfachen und schnellen Zugang zu den kantonalen Erlasssammlungen in der      Schweiz. Aktuell sind die Erlasssammlungen folgender 19 Kantone abrufbar: 
+    ZH, BE, LU, OW, NW, GL, ZG, FR, SO, BS, BL, SH, AR, AI, SG, GR, AG, TG, VS.<br>
+    <br>
+    <b>Wie funktioniert die Suche?</b><br>
+    Im ersten Suchfeld wird der gewünschte Kanton angegeben (z. B. «BE» für Bern). 
+    Wenn kein Kanton ausgewählt wird, durchsucht gsetz.li automatisch alle verfügbaren kantonalen Erlasssammlungen.
+    Beispiel: Die kantonale Ordnungsbussverordnung des Kantons Bern in Französisch kann aufgerufen werden durch Eingabe von: <i>«BE»</i>, <i>«fr»</i>, <i>«KOBV»</i>. Gross- und Kleinschreibung spielt dabei keine Rolle.
+    Tipp: Gibt man nach der Abkürzung eines Erlasses zusätzlich eine Artikelnummer ein (z. B. <i>«KOBV 5»</i>), wird direkt auf den entsprechenden Artikel verwiesen – sofern dieser existiert.<br>
+    <br>
+    <b>Unabhängigkeit</b><br>
+    gsetz.li ist inspiriert von bger.li, grr.li und zhlaw.ch steht jedoch in keinerlei rechtlicher Beziehung zu diesen Diensten oder zu den offiziellen Erlasssammlungen der Kantone. Der Dienst wird privat betrieben. Es wird keine Haftung übernommen – insbesondere nicht für die Vollständigkeit, Richtigkeit oder Aktualität der Weiterleitungen oder Bezeichnungen.<br>
+    <br>
+    <b>Technologie</b><br>
+    gsetz.li basiert auf den Web-Technologien HTML, CSS und JavaScript und wird vollständig im Browser ausgeführt. Die Benutzeroberfläche wurde mithilfe von GPT-4o gestaltet. Die Sammlung der Erlasse und ihrer Kurzbezeichnungen wurde unter Verwendung von R, tidyverse, httr und jsonlite erstellt.<br>
+    <br>
+    <b>Datenschutz</b><br>
+    gsetz.li erhebt selbst keine Nutzerdaten. Dennoch könnten Ihr Internetprovider, unser Hostinganbieter Infomaniak sowie die Zielseiten (z. B. die offizielle Erlasssammlung eines Kantons) Informationen über Ihre Nutzung erfassen.<br>
+    </div>
+    <div class="footer">
+    <a href = "https://www.gsetz.li">Made in Magglingen 🐮 at the Open Legal Lab 2025</a>
+    </div>
+</body>
+</html>
