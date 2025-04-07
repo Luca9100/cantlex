@@ -20,4 +20,5 @@ jobs:
             -v ${{ github.workspace }}:/workspace \
             -w /workspace \
             rocker/tidyverse:latest \
+            Rscript 'install.packages(c("httr", "jsonlite"))'
             Rscript script.R
