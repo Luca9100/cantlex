@@ -1,92 +1,26 @@
+name: Run R Script
+ 
 on:
   push:
-    branches: [main, master]
-  pull_request:
-    branches: [main, master]
-    
-name: 'Setup R environment'
-description: 'Setup a R environment and add it to the PATH'
-author: 'Jim Hester'
-inputs:
-  r-version:
-    description: |
-      R version to use. Possible values are:
-        * 'release': the last released version available for the current platform.
-          'latest' is the same.
-        * 'devel': the last daily development snapshot available.
-        * 'next': the next version of R, either R-patched, or R-alpha, R-beta, R-rc
-          or R-prerelease depending on the current stage of the R release process.
-        * 'renv': retrieve the R version recorded in `renv.lock` file.
-        * exact R version, e.g. '4.4.2'.
-        * minor R version, e.g. '4.4'. Chooses the last release from this minor version.
-          (Equivalent to using 'x' as the patch version, e.g. '4.4.x'.)
-        * major R version, e.g. '4'. Chooses the last release from this major version.
-          (Equivalent to using 'x' as the minor and patch versions, e.g. '4.x.x'.)
-        * 'oldrel', the previous version of R, not counting patch versions.
-        * 'oldrel/n' (or 'oldrel-n'): the n-th previous version of R, not counting
-          patch versions.
-    default: 'release'
-  rtools-version:
-    description: |
-      Exact version of Rtools to use. Default uses latest suitable
-      rtools for the given version of R. Set it to "42" for Rtools42.
-      If it is 'none', then Rtools will not be installed. (Note that
-      there is still a pre-installed version of Rtools on the
-      GitHub-hoested GHA runners.)
-    default: ''
-  Ncpus:
-    description: 'Value to set the R option `Ncpus` to.'
-    default: '1'
-  remove-openmp-macos:
-    description: 'If true, remove `-fopenmp` from the default compilation
-    flags, e.g. `SHLIB_OPENMP_CFLAGS`, as the macOS Command Line Tools do not
-    support OpenMP.'
-    default: true
-  http-user-agent:
-    description: 'If `"default"` or `""`, sets the HTTPUserAgent option to e.g. for
-      R 3.6.3 running on macOS Catalina, `"R/3.6.3 R (3.6.3
-      x86_64-apple-darwin17.0 x86_64 darwin17.0) on GitHub Actions"`. If
-      `"release"` sets the user agent to the default user agent for the current R
-      release. Otherwise uses whatever value is passed to `http-user-agent`.'
-    default: 'default'
-  install-r:
-    description: 'If "true" download and install R during the setup. If "false"
-      use the existing installation in the GitHub Action image. Note that if it
-      is "false", you probably need to run `sudo apt-get update` yourself.'
-    default: true
-  windows-path-include-rtools:
-    description: "Whether to add Rtools to the PATH."
-    default: true
-  windows-path-include-mingw:
-    description: 'If "true" put the 64 bit mingw directory from Rtools on the
-    PATH for Windows builds. This argument is now defunct on Rtools40 and later,
-    which never add the mingw directory to the path.'
-    default: true
-  update-rtools:
-    description: 'Update rtools40 compilers and libraries to the latest builds.'
-    default: false
-  use-public-rspm:
-    description: 'Use the public version of Posit package manager available
-      at https://packagemanager.posit.co/ to serve binaries for Linux and
-      Windows.'
-    default: false
-  extra-repositories:
-    description: 'One or more extra CRAN-like repositories to include in the `repos` global option'
-    default: ''
-  working-directory:
-    description: >
-      Using the working-directory keyword, you can specify a subdirectory of the repo where some
-      relevant file, such as "renv.lock", should be found.
-    default: '.'
-  cran:
-    description: 'The CRAN mirror to use. If not specified, the CRAN environment variable is used, or finally the default CRAN mirror.'
-    required: false
-outputs:
-  installed-r-version:
-    description: 'The full R version installed'
-runs:
-  using: 'node20'
-  main: 'dist/index.js'
-
-steps:
-- run: Rscript -e 'print("hello")'
+    branches:
+      - main
+  workflow_dispatch:
+ 
+jobs:
+  run-r:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+ 
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+ 
+      - name: Install dependencies
+        run: |
+          Rscript -e 'install.packages(c("dplyr", "ggplot2", "tidyr", "readr"), repos = https://cloud.r-project.org)'
+ 
+      - name: Run R script
+        run: |
+          Rscript script.R
