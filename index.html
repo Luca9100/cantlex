@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>grr.li</title>
+  <title>gsetz.li</title>
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -39,12 +39,10 @@
     }
     #cantonInput, #languageInput {
       max-width: 170px;
-      color: black;
       border: 1px solid lightgray;
     }
     #abbreviation {
       border: 1px solid black;
-      color: black;
     }
     .autocomplete-list {
       position: absolute;
@@ -77,7 +75,7 @@
       text-decoration: none;
       color: lightgrey;
     }
-  
+
     /* Dark mode */
     body.dark-mode {
       background-color: #121212;
@@ -90,6 +88,7 @@
     }
     body.dark-mode #cantonInput,
     body.dark-mode #languageInput {
+      color: #eee;
       border: 1px solid #888;
     }
     body.dark-mode #abbreviation {
@@ -111,7 +110,7 @@
     body.dark-mode .footer a {
       color: #aaa;
     }
-  
+
     #themeToggle {
       position: absolute;
       top: 20px;
@@ -121,7 +120,7 @@
       border: none;
       cursor: pointer;
     }
-  
+
     /* ✅ Responsive adjustments for small screens */
     @media (max-width: 600px) {
       body {
@@ -140,7 +139,7 @@
         font-size: 16px;
       }
     }
-  </style>   
+</style>
 </head>
 <body>
   <button id="themeToggle" onclick="toggleTheme()">🌙</button>
@@ -176,7 +175,7 @@
   </div>
 
   <div class="footer">
-    <a href="https://www.grr.li/about">Über gsetz.li</a>
+    <a href="https://www.gsetz.li/about">Über gsetz.li</a>
   </div>
 
   <script>
