@@ -2,8 +2,8 @@ name: Run R Script
  
 on:
   push:
-    branches:
-      - main
+    paths:
+      - script.R
   workflow_dispatch:
  
 jobs:
