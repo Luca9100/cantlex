@@ -87,3 +87,6 @@ outputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
+steps:
+- run: Rscript -e 'print("hello")'
