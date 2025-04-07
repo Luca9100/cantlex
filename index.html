@@ -166,11 +166,16 @@
 
     function resolveAbbreviation() {
       const rawInput = document.getElementById("abbreviation").value.trim();
-      const articles = extractArticles(rawInput);
-      const article = articles.length > 0 ? articles[0] : null;
 
-      // Remove only isolated article references (e.g. "5", "5a") at the **end**
-      const inputForMatching = rawInput.replace(/\b\d+[a-z]?\b$/gi, "").trim(); 
+      // ✅ Extract article at the very end of the input (after selection + typing)
+      const articleMatch = rawInput.match(/\b(\d+[a-z]?)\b$/i);
+      const article = articleMatch ? articleMatch[1] : null;
+
+      // ✅ Remove article only if it's the last part
+      const inputForMatching = article
+        ? rawInput.slice(0, rawInput.toLowerCase().lastIndexOf(article.toLowerCase())).trim()
+        : rawInput;
+
       const cleanedInput = normalize(inputForMatching);
 
       const selectedCanton = document.getElementById("cantonInput").value.trim().toUpperCase();
