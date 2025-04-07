@@ -222,7 +222,7 @@
             baseUrl += `/art/${article.toLowerCase()}`;
           }
         }
-        window.location.href = baseUrl;
+        window.open(baseUrl, "_blank");
       } else {
         alert("Kein passender Erlass mit dieser Referenz gefunden");
       }
