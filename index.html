@@ -34,9 +34,13 @@
     }
     #cantonInput, #languageInput {
       width: 170px;
+      color: lightgray;
+      border: 1px solid lightgray;
     }
     #abbreviation {
       width: 500px;
+      color: black;
+      border: 1px solid black;
     }
     .autocomplete-list {
       position: absolute;
@@ -76,6 +80,13 @@
       color: #eee;
       border: 1px solid #555;
     }
+    body.dark-mode #cantonInput,
+    body.dark-mode #languageInput {
+      border: 1px solid #888;
+    }
+    body.dark-mode #abbreviation {
+      border: 1px solid #eee;
+    }
     body.dark-mode .autocomplete-list {
       background-color: #1e1e1e;
       border-color: #555;
@@ -100,23 +111,23 @@
       border: none;
       cursor: pointer;
     }
-  </style>
+  </style>  
 </head>
 <body>
   <button id="themeToggle" onclick="toggleTheme()">🌙</button>
   <h1>gsetz.li</h1>
 
   <div>
-    <input id="cantonInput" list="cantonList" placeholder="Kanton (z. B. TG)" oninput="showSuggestions()" />
+    <input id="cantonInput" list="cantonList" placeholder="Kanton (alle)" oninput="showSuggestions()" />
     <datalist id="cantonList">
-      <option value="BE"><option value="LU"><option value="OW"><option value="NW">
-      <option value="GL"><option value="ZG"><option value="FR"><option value="SO">
-      <option value="BS"><option value="BL"><option value="SH"><option value="AR">
-      <option value="AI"><option value="SG"><option value="GR"><option value="AG">
-      <option value="TG"><option value="VS"><option value="ZH">
+      <option value="ZH"></option><option value="BE"><option value="LU"><option value="OW">
+      <option value="NW"><option value="GL"><option value="ZG"><option value="FR">
+      <option value="SO"><option value="BS"><option value="BL"><option value="SH">
+      <option value="AR"><option value="AI"><option value="SG"><option value="GR">
+      <option value="AG"><option value="TG"><option value="VS">
     </datalist>
 
-    <input id="languageInput" list="languageList" placeholder="Sprache (z. B. de)" oninput="showSuggestions()" />
+    <input id="languageInput" list="languageList" placeholder="Sprache (de)" oninput="showSuggestions()" />
     <datalist id="languageList">
       <option value="de"><option value="fr"><option value="it"><option value="rm"></option>
     </datalist>
@@ -136,7 +147,7 @@
   </div>
 
   <div class="footer">
-    <a href="https://www.grr.li/about">Über grr.li</a>
+    <a href="https://www.grr.li/about">Über gsetz.li</a>
   </div>
 
   <script>
@@ -337,11 +348,27 @@
 
     function setPlaceholder() {
       const examples = [
-        "Abkürzung oder Kurztitel eingeben", "StipVO", "GesG", "VV KKG", "ZH 5a", "fr loi", "it legge"
+        "Abkürzung oder Kurztitel eingeben",
+        "Weinbauverordnung",
+        "VRG 5",
+        "Gesundheitsgesetz",        
+        "BauG 12",      
+        "PBG 24",      
+        "Strassengesetz",  
+        "StrG 17",     
+        "Volksschulgesetz",     
+        "LAEc 7",       
+
       ];
       const input = document.getElementById("abbreviation");
-      input.placeholder = examples[Math.floor(Math.random() * examples.length)];
+
+      let index = 0;
+      setInterval(() => {
+        input.placeholder = examples[index];
+        index = (index + 1) % examples.length;
+      }, 4000);
     }
+
 
     window.onload = function () {
       loadAbbreviationMap();
